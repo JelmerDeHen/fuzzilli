@@ -1,0 +1,32 @@
+function main() {
+const v3 = [59446.68221467873];
+// v3 = .object(ofGroup: Array, withProperties: ["__proto__", "length", "constructor"], withMethods: ["shift", "findIndex", "reduce", "toString", "flatMap", "unshift", "map", "flat", "fill", "slice", "keys", "some", "splice", "entries", "push", "filter", "toLocaleString", "every", "indexOf", "forEach", "copyWithin", "reverse", "find", "includes", "reduceRight", "values", "join", "concat", "pop", "sort", "lastIndexOf"])
+const v5 = [v3,1337,-2547248489];
+// v5 = .object(ofGroup: Array, withProperties: ["__proto__", "length", "constructor"], withMethods: ["shift", "findIndex", "reduce", "toString", "flatMap", "unshift", "map", "flat", "fill", "slice", "keys", "some", "splice", "entries", "push", "filter", "toLocaleString", "every", "indexOf", "forEach", "copyWithin", "reverse", "find", "includes", "reduceRight", "values", "join", "concat", "pop", "sort", "lastIndexOf"])
+function v6(v7,v8) {
+    const v11 = [13.37,13.37];
+    // v11 = .object(ofGroup: Array, withProperties: ["__proto__", "length", "constructor"], withMethods: ["shift", "findIndex", "reduce", "toString", "flatMap", "unshift", "map", "flat", "fill", "slice", "keys", "some", "splice", "entries", "push", "filter", "toLocaleString", "every", "indexOf", "forEach", "copyWithin", "reverse", "find", "includes", "reduceRight", "values", "join", "concat", "pop", "sort", "lastIndexOf"])
+    const v13 = v11.__proto__;
+    // v13 = .object()
+    let v15 = this;
+    let v16 = v15;
+    const v19 = new Proxy(v16,Object);
+    // v19 = .unknown
+    v13.__proto__ = v19;
+    const v21 = Symbol.isConcatSpreadable;
+    // v21 = .object(ofGroup: Symbol, withProperties: ["__proto__", "description"])
+    v13[v21] = 1337;
+    for (const v22 in "boolean") {
+        for (const v24 of "pvU0UUjoya") {
+        }
+    }
+}
+const v25 = v6(RegExp);
+// v25 = .unknown
+const v27 = v6(gc,v5);
+// v27 = .unknown
+const v28 = v6();
+// v28 = .unknown
+}
+%NeverOptimizeFunction(main);
+main();

@@ -1,0 +1,21 @@
+function main() {
+const v1 = [13.37,13.37,13.37,13.37];
+// v1 = .object(ofGroup: Array, withProperties: ["constructor", "__proto__", "length"], withMethods: ["pop", "flatMap", "push", "values", "toLocaleString", "indexOf", "copyWithin", "lastIndexOf", "find", "unshift", "keys", "toString", "findIndex", "some", "reduceRight", "reduce", "entries", "splice", "shift", "slice", "concat", "fill", "sort", "includes", "forEach", "filter", "every", "join", "flat", "reverse", "map"])
+const v4 = [13.37,13.37];
+// v4 = .object(ofGroup: Array, withProperties: ["constructor", "__proto__", "length"], withMethods: ["pop", "flatMap", "push", "values", "toLocaleString", "indexOf", "copyWithin", "lastIndexOf", "find", "unshift", "keys", "toString", "findIndex", "some", "reduceRight", "reduce", "entries", "splice", "shift", "slice", "concat", "fill", "sort", "includes", "forEach", "filter", "every", "join", "flat", "reverse", "map"])
+v4.__proto__ = v1;
+for (const v7 in "boolean") {
+    for (let v11 = 0; v11 < 5; v11++) {
+        const v17 = gc();
+        // v17 = .undefined
+        function v20(v21,v22,v23,v24) {
+        }
+        const v26 = v4.splice(1337,0,13.37,0,5,v11,"YZ.4OcwX/h");
+        // v26 = .object(ofGroup: Array, withProperties: ["constructor", "__proto__", "length"], withMethods: ["pop", "flatMap", "push", "values", "toLocaleString", "indexOf", "copyWithin", "lastIndexOf", "find", "unshift", "keys", "toString", "findIndex", "some", "reduceRight", "reduce", "entries", "splice", "shift", "slice", "concat", "fill", "sort", "includes", "forEach", "filter", "every", "join", "flat", "reverse", "map"])
+    }
+}
+const v27 = v4.shift();
+// v27 = .unknown
+}
+%NeverOptimizeFunction(main);
+main();

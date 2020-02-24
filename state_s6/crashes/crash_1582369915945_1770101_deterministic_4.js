@@ -1,0 +1,141 @@
+function main() {
+const v4 = [13.37,13.37,13.37,13.37,13.37];
+const v6 = [1337,1337,1337,1337,1337];
+const v7 = [3817815496];
+const v8 = {length:13.37,a:v6,__proto__:"symbol",e:v6,d:"symbol"};
+const v9 = {a:1337,length:1337,valueOf:v7,c:v6,d:v6,__proto__:Math,constructor:v7};
+let v10 = v7;
+const v13 = [13.37,13.37];
+const v15 = [1337,1337,1337];
+const v16 = [];
+const v17 = {e:v13,b:1337,valueOf:v15};
+const v22 = [13.37,13.37];
+const v24 = [1337];
+const v25 = [];
+const v26 = {constructor:v25,valueOf:Symbol,c:Symbol,length:v24,d:"iterator",a:Symbol,e:v22};
+function v27(v28,v29,v30,v31,v32) {
+    'use strict'
+}
+const v33 = v27.toLocaleString();
+const v34 = {length:4294967297,c:1337,e:13.37,a:Symbol,d:v26};
+let v35 = v34;
+const v38 = [13.37,13.37,13.37,13.37,13.37];
+const v40 = [1337];
+const v41 = [];
+const v42 = {a:v41};
+const v43 = {__proto__:eval,constructor:v42,length:v41};
+let v44 = v41;
+const v47 = [13.37,13.37,13.37];
+function v48(v49,v50) {
+}
+const v51 = ["undefined",v47];
+const v53 = new Int16Array();
+const v55 = v48(...v51,...v53);
+const v56 = 0 || v47;
+const v58 = [1337,1337,1337,1337];
+try {
+    let v61 = 0;
+    const v65 = [13.37,13.37,13.37,13.37,13.37];
+    const v67 = [1337,1337];
+    const v68 = [Int16Array];
+    const v69 = {c:13.37,e:1411100319,b:1337,__proto__:v67,valueOf:13.37};
+    const v70 = {constructor:v68,valueOf:Int16Array,length:v65,c:1411100319,d:v65,b:v68,toString:1337};
+    let v71 = 13.37;
+    const v76 = [387423.23445279687,387423.23445279687];
+    const v78 = [1337,1337];
+    const v79 = [v76,387423.23445279687,v78,-4294967296];
+    const v80 = {__proto__:v76,valueOf:"number",a:Object,d:v79};
+    const v81 = {valueOf:v80};
+    let v82 = v78;
+    let v85 = 0;
+    const v86 = v85 + 1;
+    const v88 = Symbol.toStringTag;
+    const v89 = v69[v88];
+    const v90 = v80[v82];
+    const v92 = new Float32Array();
+    const v93 = [1337,1337,1337,1337,1337];
+    function v94(v95,v96) {
+        function v99(v100,v101) {
+            let v103 = 0;
+            const v104 = v95.size;
+            const v105 = v103 + 1;
+            const v108 = [13.37,13.37,13.37,13.37];
+            const v110 = [1337,1337,1337];
+            const v111 = [986843737];
+            const v116 = [13.37,13.37];
+            const v118 = [1337,1337,1337,1337,1337];
+            const v119 = [10,DataView,"symbol"];
+            const v120 = {toString:v116,e:"symbol",a:13.37,d:DataView,constructor:v119,valueOf:v116};
+            const v121 = {length:v120,a:"symbol"};
+            const v124 = [1337,1337,"MIN_VALUE",1337,1337];
+            function v125(v126,v127,v128,v129) {
+                'use strict'
+                try {
+                    let v132 = 0;
+                    while (v132 < 4) {
+                        const v133 = v132 + 1;
+                        v132 = v133;
+                    }
+                    v129[3] = v129;
+                } catch(v134) {
+                    const v135 = [];
+                    const v136 = {a:v135};
+                    const v137 = {__proto__:v129,constructor:v136,length:v135};
+                }
+                return v129;
+            }
+            const v138 = {deleteProperty:v125,set:v125,getPrototypeOf:v125,call:v125,preventExtensions:v125,isExtensible:v125,construct:v125,get:v125,ownKeys:v125,setPrototypeOf:1337,has:v125};
+            const v140 = new Proxy(v124,v138);
+            v140[1] = "MIN_VALUE";
+            const v141 = Math.tan();
+            const v142 = typeof v104;
+            const v144 = v142 === "object";
+            const v148 = [13.37,13.37,13.37,13.37,13.37];
+            const v150 = [1337,1337,1337,1337];
+            const v151 = [v150];
+            const v152 = {constructor:v151,toString:v150,a:v151,c:v151,__proto__:isFinite,length:v151};
+            const v153 = {toString:13.37,length:1337};
+            let v154 = -2147483647;
+            function v155(v156,v157) {
+            }
+            const v158 = v155();
+            let v160 = 1903240934;
+            const v162 = new Int8Array();
+            const v168 = [1.7976931348623157e+308];
+            const v170 = [255,255,255];
+            const v171 = {a:255,toString:isFinite,c:v168,__proto__:v170,valueOf:"object",constructor:"gM8oAednYn"};
+            const v172 = {toString:v168,valueOf:v171,d:255,constructor:536870912};
+            const v173 = RegExp.apply();
+            const v174 = "object".split();
+        }
+        const v176 = [1337];
+        let v177 = v176;
+        const v178 = v99();
+        let v179 = 2147483649;
+        for (const v180 in "boolean") {
+            const v183 = Symbol.iterator;
+            const v184 = v183[0];
+            let v187 = 0;
+            const v188 = v187 + 1;
+            let v189 = -256;
+        }
+    }
+    const v190 = v93.forEach(v94);
+    const v191 = v81.__proto__;
+    const v192 = v94();
+    const v193 = v61 + 1;
+    let v194 = Infinity;
+    const v195 = v194.getOwnPropertyDescriptor();
+    let v197 = 0;
+    const v198 = v197 + 1;
+    const v200 = Int16Array();
+} catch(v201) {
+}
+let v202 = 1337;
+const v203 = v48();
+const v204 = Symbol.for();
+const v205 = v48();
+const v206 = {b:13.37,d:v15,__proto__:v17,e:v16,valueOf:"number"};
+}
+%NeverOptimizeFunction(main);
+main();

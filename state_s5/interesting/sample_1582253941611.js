@@ -1,0 +1,103 @@
+function main() {
+const v4 = [13.37,13.37,13.37];
+// v4 = .object(ofGroup: Array, withProperties: ["constructor", "length", "__proto__"], withMethods: ["toString", "push", "find", "sort", "keys", "flat", "forEach", "lastIndexOf", "concat", "reverse", "indexOf", "toLocaleString", "splice", "reduceRight", "shift", "entries", "slice", "pop", "findIndex", "every", "unshift", "map", "flatMap", "includes", "fill", "reduce", "copyWithin", "filter", "join", "some", "values"])
+const v6 = [1337,1337];
+// v6 = .object(ofGroup: Array, withProperties: ["constructor", "length", "__proto__"], withMethods: ["toString", "push", "find", "sort", "keys", "flat", "forEach", "lastIndexOf", "concat", "reverse", "indexOf", "toLocaleString", "splice", "reduceRight", "shift", "entries", "slice", "pop", "findIndex", "every", "unshift", "map", "flatMap", "includes", "fill", "reduce", "copyWithin", "filter", "join", "some", "values"])
+const v7 = [v6,v6,v6];
+// v7 = .object(ofGroup: Array, withProperties: ["constructor", "length", "__proto__"], withMethods: ["toString", "push", "find", "sort", "keys", "flat", "forEach", "lastIndexOf", "concat", "reverse", "indexOf", "toLocaleString", "splice", "reduceRight", "shift", "entries", "slice", "pop", "findIndex", "every", "unshift", "map", "flatMap", "includes", "fill", "reduce", "copyWithin", "filter", "join", "some", "values"])
+const v8 = {d:"undefined",e:v4,__proto__:v6,c:v6,toString:v7};
+// v8 = .object(ofGroup: Object, withProperties: ["c", "__proto__", "d", "e", "toString"])
+const v9 = {b:13.37,d:1607264097,e:1607264097,constructor:v6,valueOf:WeakSet};
+// v9 = .object(ofGroup: Object, withProperties: ["__proto__", "e", "b", "valueOf", "d", "constructor"])
+const v14 = [13.37,13.37,13.37];
+// v14 = .object(ofGroup: Array, withProperties: ["constructor", "length", "__proto__"], withMethods: ["toString", "push", "find", "sort", "keys", "flat", "forEach", "lastIndexOf", "concat", "reverse", "indexOf", "toLocaleString", "splice", "reduceRight", "shift", "entries", "slice", "pop", "findIndex", "every", "unshift", "map", "flatMap", "includes", "fill", "reduce", "copyWithin", "filter", "join", "some", "values"])
+const v16 = [1337,1337];
+// v16 = .object(ofGroup: Array, withProperties: ["constructor", "length", "__proto__"], withMethods: ["toString", "push", "find", "sort", "keys", "flat", "forEach", "lastIndexOf", "concat", "reverse", "indexOf", "toLocaleString", "splice", "reduceRight", "shift", "entries", "slice", "pop", "findIndex", "every", "unshift", "map", "flatMap", "includes", "fill", "reduce", "copyWithin", "filter", "join", "some", "values"])
+const v17 = [v16,v16,v16];
+// v17 = .object(ofGroup: Array, withProperties: ["constructor", "length", "__proto__"], withMethods: ["toString", "push", "find", "sort", "keys", "flat", "forEach", "lastIndexOf", "concat", "reverse", "indexOf", "toLocaleString", "splice", "reduceRight", "shift", "entries", "slice", "pop", "findIndex", "every", "unshift", "map", "flatMap", "includes", "fill", "reduce", "copyWithin", "filter", "join", "some", "values"])
+const v18 = {d:"undefined",e:v14,__proto__:v16,c:v16,toString:v17};
+// v18 = .object(ofGroup: Object, withProperties: ["c", "__proto__", "toString", "e", "d"])
+const v19 = {b:13.37,d:1607264097,e:1607264097,constructor:v16,valueOf:WeakSet};
+// v19 = .object(ofGroup: Object, withProperties: ["d", "valueOf", "constructor", "__proto__", "b", "e"])
+let v20 = v18;
+const v25 = [13.37,13.37,13.37];
+// v25 = .object(ofGroup: Array, withProperties: ["constructor", "length", "__proto__"], withMethods: ["toString", "push", "find", "sort", "keys", "flat", "forEach", "lastIndexOf", "concat", "reverse", "indexOf", "toLocaleString", "splice", "reduceRight", "shift", "entries", "slice", "pop", "findIndex", "every", "unshift", "map", "flatMap", "includes", "fill", "reduce", "copyWithin", "filter", "join", "some", "values"])
+const v27 = [1337,1337];
+// v27 = .object(ofGroup: Array, withProperties: ["constructor", "length", "__proto__"], withMethods: ["toString", "push", "find", "sort", "keys", "flat", "forEach", "lastIndexOf", "concat", "reverse", "indexOf", "toLocaleString", "splice", "reduceRight", "shift", "entries", "slice", "pop", "findIndex", "every", "unshift", "map", "flatMap", "includes", "fill", "reduce", "copyWithin", "filter", "join", "some", "values"])
+const v28 = [v27,v27,v27];
+// v28 = .object(ofGroup: Array, withProperties: ["constructor", "length", "__proto__"], withMethods: ["toString", "push", "find", "sort", "keys", "flat", "forEach", "lastIndexOf", "concat", "reverse", "indexOf", "toLocaleString", "splice", "reduceRight", "shift", "entries", "slice", "pop", "findIndex", "every", "unshift", "map", "flatMap", "includes", "fill", "reduce", "copyWithin", "filter", "join", "some", "values"])
+const v29 = {d:"undefined",e:v25,__proto__:v27,c:v27,toString:v28};
+// v29 = .object(ofGroup: Object, withProperties: ["c", "toString", "__proto__", "e", "d"])
+const v31 = {b:13.37,d:1607264097,e:1607264097,constructor:v27,valueOf:WeakSet};
+// v31 = .object(ofGroup: Object, withProperties: ["__proto__", "constructor", "valueOf", "d", "b", "e"])
+let v32 = v29;
+const v37 = [13.37,13.37,13.37];
+// v37 = .object(ofGroup: Array, withProperties: ["constructor", "length", "__proto__"], withMethods: ["toString", "push", "find", "sort", "keys", "flat", "forEach", "lastIndexOf", "concat", "reverse", "indexOf", "toLocaleString", "splice", "reduceRight", "shift", "entries", "slice", "pop", "findIndex", "every", "unshift", "map", "flatMap", "includes", "fill", "reduce", "copyWithin", "filter", "join", "some", "values"])
+const v39 = [1337,1337];
+// v39 = .object(ofGroup: Array, withProperties: ["constructor", "length", "__proto__"], withMethods: ["toString", "push", "find", "sort", "keys", "flat", "forEach", "lastIndexOf", "concat", "reverse", "indexOf", "toLocaleString", "splice", "reduceRight", "shift", "entries", "slice", "pop", "findIndex", "every", "unshift", "map", "flatMap", "includes", "fill", "reduce", "copyWithin", "filter", "join", "some", "values"])
+const v40 = [v39,v39,v39];
+// v40 = .object(ofGroup: Array, withProperties: ["constructor", "length", "__proto__"], withMethods: ["toString", "push", "find", "sort", "keys", "flat", "forEach", "lastIndexOf", "concat", "reverse", "indexOf", "toLocaleString", "splice", "reduceRight", "shift", "entries", "slice", "pop", "findIndex", "every", "unshift", "map", "flatMap", "includes", "fill", "reduce", "copyWithin", "filter", "join", "some", "values"])
+const v41 = {d:"undefined",e:v37,__proto__:v39,c:v39,toString:v40};
+// v41 = .object(ofGroup: Object, withProperties: ["e", "toString", "c", "__proto__", "d"])
+const v42 = {b:13.37,d:1607264097,e:1607264097,constructor:v39,valueOf:WeakSet};
+// v42 = .object(ofGroup: Object, withProperties: ["d", "valueOf", "__proto__", "e", "constructor", "b"])
+let v43 = v41;
+const v48 = [13.37,13.37,13.37];
+// v48 = .object(ofGroup: Array, withProperties: ["constructor", "length", "__proto__"], withMethods: ["toString", "push", "find", "sort", "keys", "flat", "forEach", "lastIndexOf", "concat", "reverse", "indexOf", "toLocaleString", "splice", "reduceRight", "shift", "entries", "slice", "pop", "findIndex", "every", "unshift", "map", "flatMap", "includes", "fill", "reduce", "copyWithin", "filter", "join", "some", "values"])
+for (let v52 = 0; v52 < 100; v52++) {
+    const v53 = Object(v32,v18);
+    // v53 = .object()
+}
+const v55 = [1337,1337];
+// v55 = .object(ofGroup: Array, withProperties: ["constructor", "length", "__proto__"], withMethods: ["toString", "push", "find", "sort", "keys", "flat", "forEach", "lastIndexOf", "concat", "reverse", "indexOf", "toLocaleString", "splice", "reduceRight", "shift", "entries", "slice", "pop", "findIndex", "every", "unshift", "map", "flatMap", "includes", "fill", "reduce", "copyWithin", "filter", "join", "some", "values"])
+const v56 = [v55,v55,v55];
+// v56 = .object(ofGroup: Array, withProperties: ["constructor", "length", "__proto__"], withMethods: ["toString", "push", "find", "sort", "keys", "flat", "forEach", "lastIndexOf", "concat", "reverse", "indexOf", "toLocaleString", "splice", "reduceRight", "shift", "entries", "slice", "pop", "findIndex", "every", "unshift", "map", "flatMap", "includes", "fill", "reduce", "copyWithin", "filter", "join", "some", "values"])
+const v57 = {d:"undefined",e:v48,__proto__:v55,c:v55,toString:v56};
+// v57 = .object(ofGroup: Object, withProperties: ["__proto__", "c", "d", "e", "toString"])
+const v58 = {b:13.37,d:1607264097,e:1607264097,constructor:v55,valueOf:WeakSet};
+// v58 = .object(ofGroup: Object, withProperties: ["b", "__proto__", "d", "e", "constructor", "valueOf"])
+let v59 = v57;
+const v63 = [13.37,13.37];
+// v63 = .object(ofGroup: Array, withProperties: ["constructor", "length", "__proto__"], withMethods: ["toString", "push", "find", "sort", "keys", "flat", "forEach", "lastIndexOf", "concat", "reverse", "indexOf", "toLocaleString", "splice", "reduceRight", "shift", "entries", "slice", "pop", "findIndex", "every", "unshift", "map", "flatMap", "includes", "fill", "reduce", "copyWithin", "filter", "join", "some", "values"])
+const v65 = [1337,1337,1337,1337];
+// v65 = .object(ofGroup: Array, withProperties: ["constructor", "length", "__proto__"], withMethods: ["toString", "push", "find", "sort", "keys", "flat", "forEach", "lastIndexOf", "concat", "reverse", "indexOf", "toLocaleString", "splice", "reduceRight", "shift", "entries", "slice", "pop", "findIndex", "every", "unshift", "map", "flatMap", "includes", "fill", "reduce", "copyWithin", "filter", "join", "some", "values"])
+const v66 = [13.37,v63];
+// v66 = .object(ofGroup: Array, withProperties: ["constructor", "length", "__proto__"], withMethods: ["toString", "push", "find", "sort", "keys", "flat", "forEach", "lastIndexOf", "concat", "reverse", "indexOf", "toLocaleString", "splice", "reduceRight", "shift", "entries", "slice", "pop", "findIndex", "every", "unshift", "map", "flatMap", "includes", "fill", "reduce", "copyWithin", "filter", "join", "some", "values"])
+const v67 = {e:13.37};
+// v67 = .object(ofGroup: Object, withProperties: ["__proto__", "e"])
+const v68 = {d:gc,valueOf:v65};
+// v68 = .object(ofGroup: Object, withProperties: ["__proto__", "valueOf"], withMethods: ["d"])
+let v69 = 1337;
+const v70 = v63[-256];
+// v70 = .unknown
+let v73 = 0;
+do {
+    const v74 = v70 - 1;
+    // v74 = .primitive
+    const v75 = v73 + 1;
+    // v75 = .primitive
+    v73 = v75;
+} while (v73 < 3);
+v73 = 3;
+const v76 = {__proto__:3,constructor:v73,d:v67,valueOf:v70,length:13.37};
+// v76 = .object(ofGroup: Object, withProperties: ["constructor", "length", "__proto__", "valueOf", "d"])
+const v78 = Object();
+// v78 = .object()
+const v79 = gc();
+// v79 = .undefined
+const v80 = {length:gc,a:v67,constructor:0,b:v69,__proto__:1337,b:v73,e:"object",valueOf:3};
+// v80 = .object(ofGroup: Object, withProperties: ["a", "e", "constructor", "__proto__", "valueOf", "b"], withMethods: ["length"])
+const v81 = v68.__proto__;
+// v81 = .object()
+function v82(v83,v84,v85) {
+    const v86 = 13.37 && 1607264097;
+    // v86 = .boolean
+}
+let v87 = v7;
+const v93 = [1337,1337];
+// v93 = .object(ofGroup: Array, withProperties: ["constructor", "length", "__proto__"], withMethods: ["toString", "push", "find", "sort", "keys", "flat", "forEach", "lastIndexOf", "concat", "reverse", "indexOf", "toLocaleString", "splice", "reduceRight", "shift", "entries", "slice", "pop", "findIndex", "every", "unshift", "map", "flatMap", "includes", "fill", "reduce", "copyWithin", "filter", "join", "some", "values"])
+const v94 = {b:4.0,d:1607264097,e:1607264097,constructor:WeakSet,valueOf:this};
+// v94 = .object(ofGroup: Object, withProperties: ["e", "b", "valueOf", "constructor", "d", "__proto__"])
+}
+%NeverOptimizeFunction(main);
+main();

@@ -1,0 +1,11 @@
+function main() {
+const v1 = [1337,1337,1337,1337];
+// v1 = .object(ofGroup: Array, withProperties: ["__proto__", "length", "constructor"], withMethods: ["shift", "findIndex", "reduce", "toString", "flatMap", "unshift", "map", "flat", "fill", "slice", "keys", "some", "splice", "entries", "push", "filter", "toLocaleString", "every", "indexOf", "forEach", "copyWithin", "reverse", "find", "includes", "reduceRight", "values", "join", "concat", "pop", "sort", "lastIndexOf"])
+for (const v4 in "yPJU1WtjGa") {
+    let v7 = 0;
+    const v10 = v1.push(8,v7,7,0,1337);
+    // v10 = .integer
+}
+}
+%NeverOptimizeFunction(main);
+main();

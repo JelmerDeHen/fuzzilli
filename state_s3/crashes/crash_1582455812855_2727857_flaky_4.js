@@ -1,0 +1,91 @@
+function main() {
+const v4 = [13.37,13.37,13.37,13.37];
+const v6 = [1337,1337,1337,1337];
+const v7 = [v6];
+const v8 = {length:Promise,d:v4,toString:-1065378945,constructor:1337};
+const v9 = {length:-1065378945,constructor:v4};
+let v10 = "boolean";
+"undefined".__proto__ = 1337;
+const v15 = "undefined".padStart(1337);
+const v16 = v10 in v9;
+v10.length = v9;
+const v17 = [13.37,13.37];
+const v19 = [1337,1337];
+const v20 = [];
+const v21 = {__proto__:-56371288,valueOf:1337,toString:1337,d:v20,b:-56371288,constructor:13.37,length:"undefined"};
+const v22 = {};
+let v23 = "undefined";
+const v28 = [13.37,13.37,13.37,13.37];
+const v30 = [1337,1337,1337,1337];
+const v31 = [WeakSet,3762848682,3762848682];
+const v32 = {constructor:v31,toString:v28,c:"WFKz3qhX8o",a:v30,e:WeakSet,valueOf:v28};
+const v33 = {c:v32};
+let v34 = WeakSet;
+const v39 = [-3.0,-3.0,-3.0];
+const v41 = [1337,1337];
+const v44 = new Int8Array();
+v44.constructor = Float32Array;
+const v47 = v44.slice(0);
+const v48 = ["NEGATIVE_INFINITY",1337,1337,1337];
+const v49 = {length:v39,__proto__:"NEGATIVE_INFINITY",toString:"NEGATIVE_INFINITY",valueOf:"NEGATIVE_INFINITY",constructor:"NEGATIVE_INFINITY"};
+const v50 = {};
+const v54 = [1337,1337,1337,1337];
+let v55 = v54;
+for (const v57 in "object") {
+    const v60 = [1337,1337,1337,1337,1337];
+    function v61(v62,v63,v64,v65) {
+        'use strict'
+        try {
+            const v70 = new Uint32Array();
+            v70.constructor = Float64Array;
+            const v73 = v70.slice(16);
+            const v76 = [1337,1337,1337,1337,1337];
+            function v77(v78,v79,v80,v81) {
+                'use strict'
+                const v83 = [v78,1337];
+                const v84 = v83.shift();
+                const v86 = Object.values();
+                return v62;
+            }
+            const v87 = {deleteProperty:v77,set:v77,getPrototypeOf:v77,c:v77,preventExtensions:v77,isExtensible:v77,construct:v77,get:v77,ownKeys:v77,setPrototypeOf:v77,has:v77};
+            const v89 = new Proxy(v76,v87);
+            const v90 = new Float32Array(19873);
+            v65[3] = v65;
+        } catch(v91) {
+            const v93 = Symbol.toPrimitive;
+            const v95 = v60.reduceRight(v61,v63);
+            let v99 = this;
+            let v100 = v99;
+            let v101 = "jZZhI/kPfh";
+            const v102 = [1337];
+            let v103 = "EXkcpBKht7";
+            const v104 = v102.includes(v103,-2695425644);
+            const v106 = [v65,1337];
+            const v108 = v101 + 1;
+            const v110 = "unscopable".concat(100);
+            const v112 = [1337,1337];
+        }
+        return v60;
+    }
+    let v115 = 0;
+    while (v115 < 1337) {
+        const v116 = v115 + 1;
+        const v118 = [1337,1337,1337,1337,1337];
+        let v119 = v118;
+        const v121 = [v119,13.37,13.37,13.37,13.37];
+        function v122(v123,v124) {
+        }
+        v115 = v116;
+    }
+    let v127 = 0;
+    do {
+        const v128 = v127 + 1;
+        v127 = v128;
+    } while (v127 < 3);
+    const v129 = {deleteProperty:v61,set:v61,getPrototypeOf:v61,call:v61,preventExtensions:v61,isExtensible:v61,construct:v61,get:v61,ownKeys:v61,setPrototypeOf:1337,has:v61};
+    const v131 = new Proxy(v60,v129);
+    v131[1] = "MIN_VALUE";
+}
+}
+%NeverOptimizeFunction(main);
+main();

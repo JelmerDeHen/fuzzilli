@@ -1,0 +1,74 @@
+function main() {
+const v5 = [13.37,13.37,13.37];
+const v7 = [1337,1337];
+const v8 = ["NEGATIVE_INFINITY",1337,1337,1337];
+const v9 = {length:v5,__proto__:"NEGATIVE_INFINITY",toString:"NEGATIVE_INFINITY",valueOf:"NEGATIVE_INFINITY",constructor:"NEGATIVE_INFINITY"};
+const v10 = {};
+const v12 = [1337,1337,1337,1337];
+let v13 = v12;
+for (const v15 in "object") {
+    const v18 = [1337,1337,1337,1337,1337];
+    function v19(v20,v21,v22,v23) {
+        'use strict'
+        try {
+            const v26 = new Uint32Array();
+            const v28 = v26.slice();
+            const v30 = new Float32Array(19873);
+            v23[3] = v23;
+        } catch(v31) {
+            const v33 = Symbol.toPrimitive;
+            const v34 = v18.reduceRight(v19);
+            let v38 = this;
+            let v39 = v38;
+            let v40 = "jZZhI/kPfh";
+            const v41 = ["EXkcpBKht7"];
+            let v42 = "EXkcpBKht7";
+            const v43 = v41.includes();
+            const v45 = [v23,1337];
+            const v47 = "unscopable".concat();
+            const v49 = [1337,1337];
+            const v51 = [13.37,13.37,13.37];
+        }
+        return v18;
+    }
+    const v52 = "MIN_VALUE".includes();
+    const v53 = [v18,v52];
+    let v56 = 0;
+    while (v56 < 1337) {
+        const v57 = v56 + 1;
+        let v59 = v57;
+        const v60 = Math.pow();
+        const v61 = Math.sin();
+        v56 = v57;
+    }
+    let v64 = "function";
+    const v65 = [v64,1337];
+    const v66 = {deleteProperty:v19,set:v19,getPrototypeOf:v19,call:v19,preventExtensions:v19,isExtensible:v19,construct:v19,get:v19,ownKeys:v19,setPrototypeOf:1337,has:v19};
+    const v68 = new Proxy(v18,v66);
+    v68[1] = "MIN_VALUE";
+}
+const v70 = Object();
+let v73 = 0;
+const v74 = v73 + 1;
+Object.length = 956673699;
+const v76 = {constructor:Object,c:"c2rjvZAy+C",b:956673699,valueOf:0,toString:Object,..."c2rjvZAy+C"};
+const v78 = [13.37,13.37];
+const v80 = [1337,1337,1337,956673699,1337];
+const v81 = [Object,v80];
+const v82 = {a:16,b:v81,d:v80};
+const v83 = {length:v78,e:v80,__proto__:v78};
+let v84 = v80;
+const v88 = Int32Array();
+v88.constructor = Uint32Array;
+const v90 = v88.slice();
+function v91(v92,v93,v94,v95) {
+    'use strict'
+    let v96 = v92;
+    return v93;
+}
+const v97 = 1337 === -1024;
+const v98 = -1024 + 1;
+const v99 = Object();
+}
+%NeverOptimizeFunction(main);
+main();

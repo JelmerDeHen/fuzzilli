@@ -1,0 +1,69 @@
+function main() {
+const v3 = [13.37,13.37,13.37,13.37,13.37];
+const v5 = [1337];
+const v6 = ["VlLt9YAnQ4","VlLt9YAnQ4"];
+const v7 = {__proto__:1337,c:"VlLt9YAnQ4",e:-65536};
+const v12 = [13.37,13.37,13.37];
+const v14 = [1337,1337,1337];
+const v15 = {e:v12,constructor:Array,toString:1073741824,length:1337,a:"E"};
+let v16 = v15;
+const v20 = new Uint8ClampedArray();
+const v24 = [13.37];
+const v26 = [255,255,255];
+const v28 = ["N*d4*m/H0F","N*d4*m/H0F",v26];
+const v29 = {valueOf:v26,b:-1662380622,c:v24,a:v24,__proto__:255,constructor:v28};
+const v32 = [13.37,13.37,13.37];
+const v33 = {b:v32,__proto__:isNaN,a:"string"};
+const v36 = ["NEGATIVE_INFINITY",1337,1337,1337];
+const v39 = [1337,1337,1337,1337];
+for (const v41 in "object") {
+    const v44 = [1337,1337,1337,1337,1337];
+    function v45(v46,v47,v48,v49) {
+        'use strict'
+        try {
+            let v51 = -65537;
+            const v52 = v51 + 1;
+            const v56 = new Uint32Array();
+            v56.constructor = Float64Array;
+            const v59 = v56.slice();
+            const v61 = new Float32Array(19873);
+            v49[3] = v49;
+        } catch(v62) {
+            const v64 = v44.reduceRight(v45);
+            const v66 = ["EXkcpBKht7"];
+            let v67 = "EXkcpBKht7";
+            const v70 = [1337,1337];
+        }
+        return v44;
+    }
+    const v73 = [10];
+    let v74 = v73;
+    const v75 = Math.pow();
+    const v76 = Math.atanh();
+    const v77 = "MIN_VALUE".includes();
+    const v78 = [v44,v77];
+    let v81 = 0;
+    while (v81 < 1337) {
+        const v82 = v81 + 1;
+        let v83 = v82;
+        v81 = v82;
+    }
+    let v85 = "function";
+    const v86 = {deleteProperty:v45,set:v45,getPrototypeOf:v45,call:v45,preventExtensions:v45,isExtensible:v45,construct:v45,get:v45,ownKeys:v45,setPrototypeOf:1337,has:v45};
+    const v88 = new Proxy(v44,v86);
+    v88[1] = "MIN_VALUE";
+}
+const v89 = {__proto__:v7,valueOf:v5};
+let v90 = 1337;
+const v93 = [1337,1337];
+const v95 = ArrayBuffer();
+const v96 = v95.slice();
+const v98 = [1337];
+let v99 = v98;
+let v101 = undefined;
+let v105 = -2;
+v101 = 0;
+const v106 = ArrayBuffer();
+}
+%NeverOptimizeFunction(main);
+main();

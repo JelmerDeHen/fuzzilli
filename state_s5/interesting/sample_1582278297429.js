@@ -1,0 +1,40 @@
+function main() {
+function v0(v1,v2) {
+    for (const v4 in "prototype") {
+        let v7 = 0;
+        do {
+            const v8 = v7 + 1;
+            // v8 = .primitive
+            v7 = v8;
+        } while (v7 < 8);
+    }
+    const v14 = [13.37];
+    // v14 = .object(ofGroup: Array, withProperties: ["constructor", "length", "__proto__"], withMethods: ["toString", "push", "find", "sort", "keys", "flat", "forEach", "lastIndexOf", "concat", "reverse", "indexOf", "toLocaleString", "splice", "reduceRight", "shift", "entries", "slice", "pop", "findIndex", "every", "unshift", "map", "flatMap", "includes", "fill", "reduce", "copyWithin", "filter", "join", "some", "values"])
+    const v16 = [1337,1337];
+    // v16 = .object(ofGroup: Array, withProperties: ["constructor", "length", "__proto__"], withMethods: ["toString", "push", "find", "sort", "keys", "flat", "forEach", "lastIndexOf", "concat", "reverse", "indexOf", "toLocaleString", "splice", "reduceRight", "shift", "entries", "slice", "pop", "findIndex", "every", "unshift", "map", "flatMap", "includes", "fill", "reduce", "copyWithin", "filter", "join", "some", "values"])
+    const v17 = [13.37];
+    // v17 = .object(ofGroup: Array, withProperties: ["constructor", "length", "__proto__"], withMethods: ["toString", "push", "find", "sort", "keys", "flat", "forEach", "lastIndexOf", "concat", "reverse", "indexOf", "toLocaleString", "splice", "reduceRight", "shift", "entries", "slice", "pop", "findIndex", "every", "unshift", "map", "flatMap", "includes", "fill", "reduce", "copyWithin", "filter", "join", "some", "values"])
+    const v18 = {__proto__:4096,constructor:isFinite,a:v14,e:"match",d:4096};
+    // v18 = .object(ofGroup: Object, withProperties: ["a", "d", "e", "__proto__"], withMethods: ["constructor"])
+    const v19 = {toString:4096,length:v17,b:4096,a:isFinite,e:v18,d:v14};
+    // v19 = .object(ofGroup: Object, withProperties: ["e", "toString", "d", "length", "__proto__", "b"], withMethods: ["a"])
+    let v20 = v18;
+    function v22(v23,v24) {
+    }
+    const v25 = RegExp.apply(v20,v22,v14,v16,v19);
+    // v25 = .unknown
+    const v27 = new Int16Array(19873);
+    // v27 = .object(ofGroup: Int16Array, withProperties: ["length", "byteLength", "__proto__", "byteOffset", "constructor", "buffer"], withMethods: ["lastIndexOf", "fill", "join", "reduce", "some", "findIndex", "entries", "map", "slice", "reverse", "sort", "set", "indexOf", "find", "copyWithin", "subarray", "includes", "values", "keys", "filter", "forEach", "every", "reduceRight"])
+    for (const v28 of v27) {
+    }
+}
+const v30 = [1337];
+// v30 = .object(ofGroup: Array, withProperties: ["constructor", "length", "__proto__"], withMethods: ["toString", "push", "find", "sort", "keys", "flat", "forEach", "lastIndexOf", "concat", "reverse", "indexOf", "toLocaleString", "splice", "reduceRight", "shift", "entries", "slice", "pop", "findIndex", "every", "unshift", "map", "flatMap", "includes", "fill", "reduce", "copyWithin", "filter", "join", "some", "values"])
+let v31 = v30;
+const v32 = v0(v31);
+// v32 = .unknown
+const v33 = v0();
+// v33 = .unknown
+}
+%NeverOptimizeFunction(main);
+main();

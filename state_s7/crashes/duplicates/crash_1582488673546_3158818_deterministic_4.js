@@ -1,0 +1,64 @@
+function main() {
+const v4 = [13.37,13.37,13.37];
+const v6 = [1337,1337,1337];
+const v7 = [-1024,-1024,v6,Array];
+const v8 = {length:v4,a:1337,toString:"string",d:-1024,b:1337,__proto__:1337,valueOf:-1024};
+const v9 = {a:v4,b:v6,e:"string",c:Array};
+let v10 = v9;
+const v12 = [13.37,13.37,13.37,13.37];
+const v14 = [1337,1337,1337,1337];
+const v15 = [];
+const v16 = {b:1337,c:v12,d:13.37,a:v14,length:v15,valueOf:1337};
+const v20 = [1337,1337,1337,1337,1337];
+function v21(v22,v23,v24,v25) {
+    'use strict'
+    try {
+        v25[3] = v25;
+    } catch(v26) {
+        const v31 = [-2331916614,-2331916614,-2331916614];
+        const v32 = [3664180981,3664180981,"string","string"];
+        const v33 = {valueOf:v32,length:v31,toString:parseFloat,constructor:"string",c:parseFloat};
+        function v34(v35,v36) {
+            const v40 = [1337,1337,1337,1337,1337];
+            function v41(v42,v43,v44,v45) {
+                'use strict'
+                try {
+                    const v46 = new Float64Array(v44);
+                    function v49(v50,v51,v52,v53,v54) {
+                        'use strict'
+                    }
+                    const v55 = v49.toLocaleString();
+                    const v58 = new Int32Array();
+                    const v59 = v58.slice();
+                    const v60 = [];
+                    const v61 = {a:v60};
+                    const v62 = {__proto__:eval,constructor:v61,length:v60};
+                    let v65 = 0;
+                    const v67 = new Int32Array();
+                    const v68 = v67.slice();
+                    const v69 = v62.__proto__(v55,v65,19873,Symbol);
+                    const v71 = Object.defineProperty(this,1337,v45);
+                } catch(v72) {
+                    try {
+                        const v73 = v42[3];
+                    } catch(v74) {
+                        v72.valueOf = v72;
+                    }
+                }
+                return v41;
+            }
+            const v75 = {deleteProperty:v41,set:v41,getPrototypeOf:v41,call:v41,preventExtensions:v41,isExtensible:v41,construct:v41,get:v41,ownKeys:v41,setPrototypeOf:v41,has:v41};
+            const v77 = new Proxy(v40,v75);
+            v77[1] = "MIN_VALUE";
+        }
+        const v78 = v34();
+    }
+}
+const v79 = {deleteProperty:v21,set:v21,getPrototypeOf:v21,call:v21,preventExtensions:v21,isExtensible:v21,construct:v21,get:v21,ownKeys:v21,setPrototypeOf:v21,has:v21};
+const v81 = new Proxy(v20,v79);
+v81[1] = "MIN_VALUE";
+const v82 = v7[-877658113];
+let v83 = 1337;
+}
+%NeverOptimizeFunction(main);
+main();

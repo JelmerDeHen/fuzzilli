@@ -1,0 +1,43 @@
+function main() {
+let v2 = 0;
+const v3 = v2 + 1;
+// v3 = .primitive
+v2 = v3;
+const v10 = {length:"N0Xx92zvHQ"};
+// v10 = .object(ofGroup: Object, withProperties: ["__proto__", "length"])
+const v11 = {constructor:13.37,length:13.37,__proto__:v10,toString:Number,a:"N0Xx92zvHQ"};
+// v11 = .object(ofGroup: Object, withProperties: ["constructor", "__proto__", "length", "a"], withMethods: ["toString"])
+let v17 = 0;
+const v18 = v11.__proto__;
+// v18 = .object()
+const v19 = v18 + 1;
+// v19 = .primitive
+v17 = v19;
+const v20 = {length:"N0Xx92zvHQ"};
+// v20 = .object(ofGroup: Object, withProperties: ["__proto__", "length"])
+const v21 = {constructor:13.37,length:13.37,__proto__:v20,toString:Number,a:"N0Xx92zvHQ"};
+// v21 = .object(ofGroup: Object, withProperties: ["length", "a", "__proto__", "constructor"], withMethods: ["toString"])
+for (const v23 in "object") {
+}
+const v26 = [1337,1337,1337,1337];
+// v26 = .object(ofGroup: Array, withProperties: ["__proto__", "constructor", "length"], withMethods: ["toString", "fill", "slice", "keys", "unshift", "reverse", "toLocaleString", "copyWithin", "splice", "findIndex", "includes", "map", "every", "find", "flat", "shift", "filter", "sort", "reduce", "lastIndexOf", "flatMap", "concat", "entries", "forEach", "push", "indexOf", "pop", "join", "values", "some", "reduceRight"])
+for (const v27 in "symbol") {
+}
+const v28 = v26.__proto__;
+// v28 = .object()
+v28[128] = v21;
+for (const v30 of "pvU0UUjoya") {
+}
+for (const v32 in "object") {
+}
+const v34 = Object();
+// v34 = .object()
+for (const v36 of "pvU0UUjoya") {
+}
+const v38 = [v34,13.37];
+// v38 = .object(ofGroup: Array, withProperties: ["__proto__", "constructor", "length"], withMethods: ["toString", "fill", "slice", "keys", "unshift", "reverse", "toLocaleString", "copyWithin", "splice", "findIndex", "includes", "map", "every", "find", "flat", "shift", "filter", "sort", "reduce", "lastIndexOf", "flatMap", "concat", "entries", "forEach", "push", "indexOf", "pop", "join", "values", "some", "reduceRight"])
+const v39 = v38[1024];
+// v39 = .unknown
+}
+%NeverOptimizeFunction(main);
+main();

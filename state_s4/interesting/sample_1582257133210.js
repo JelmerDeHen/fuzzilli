@@ -1,0 +1,26 @@
+function main() {
+function v2(v3,v4) {
+    for (const v9 in "boolean") {
+        let v12 = 0;
+        do {
+            let v15 = 0;
+            const v16 = "toStringTag".startsWith(v9,-1050326348);
+            // v16 = .boolean
+            let v26 = 0;
+            let v29 = 0;
+            for (const v36 of "pvU0UUjoya") {
+            }
+            const v37 = v12 + 1;
+            // v37 = .primitive
+            v12 = v37;
+        } while (v12 < 8);
+    }
+}
+const v40 = [1337];
+// v40 = .object(ofGroup: Array, withProperties: ["length", "__proto__", "constructor"], withMethods: ["copyWithin", "reduceRight", "concat", "every", "some", "toString", "filter", "toLocaleString", "slice", "map", "join", "values", "sort", "indexOf", "keys", "splice", "fill", "includes", "pop", "reduce", "lastIndexOf", "find", "flatMap", "findIndex", "unshift", "flat", "reverse", "shift", "entries", "forEach", "push"])
+let v41 = v40;
+const v42 = v2(v41);
+// v42 = .unknown
+}
+%NeverOptimizeFunction(main);
+main();

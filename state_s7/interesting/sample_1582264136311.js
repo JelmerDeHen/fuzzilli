@@ -1,0 +1,14 @@
+function main() {
+const v5 = [13.37,13.37,13.37,13.37];
+// v5 = .object(ofGroup: Array, withProperties: ["constructor", "__proto__", "length"], withMethods: ["pop", "flatMap", "push", "values", "toLocaleString", "indexOf", "copyWithin", "lastIndexOf", "find", "unshift", "keys", "toString", "findIndex", "some", "reduceRight", "reduce", "entries", "splice", "shift", "slice", "concat", "fill", "sort", "includes", "forEach", "filter", "every", "join", "flat", "reverse", "map"])
+const v7 = [1337,13.37];
+// v7 = .object(ofGroup: Array, withProperties: ["constructor", "__proto__", "length"], withMethods: ["pop", "flatMap", "push", "values", "toLocaleString", "indexOf", "copyWithin", "lastIndexOf", "find", "unshift", "keys", "toString", "findIndex", "some", "reduceRight", "reduce", "entries", "splice", "shift", "slice", "concat", "fill", "sort", "includes", "forEach", "filter", "every", "join", "flat", "reverse", "map"])
+const v8 = [v7];
+// v8 = .object(ofGroup: Array, withProperties: ["constructor", "__proto__", "length"], withMethods: ["pop", "flatMap", "push", "values", "toLocaleString", "indexOf", "copyWithin", "lastIndexOf", "find", "unshift", "keys", "toString", "findIndex", "some", "reduceRight", "reduce", "entries", "splice", "shift", "slice", "concat", "fill", "sort", "includes", "forEach", "filter", "every", "join", "flat", "reverse", "map"])
+const v9 = {valueOf:undefined,c:v7,__proto__:v8,b:v5};
+// v9 = .object(ofGroup: Object, withProperties: ["__proto__", "valueOf", "c", "b"])
+const v15 = new Map(v9);
+// v15 = .object(ofGroup: Map, withProperties: ["__proto__", "size"], withMethods: ["values", "set", "keys", "delete", "entries", "clear", "get", "has", "forEach"])
+}
+%NeverOptimizeFunction(main);
+main();

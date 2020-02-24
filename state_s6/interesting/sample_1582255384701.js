@@ -1,0 +1,13 @@
+function main() {
+const v4 = [13.37,13.37,13.37];
+// v4 = .object(ofGroup: Array, withProperties: ["constructor", "__proto__", "length"], withMethods: ["filter", "map", "toLocaleString", "push", "splice", "forEach", "flatMap", "findIndex", "reverse", "entries", "every", "indexOf", "toString", "flat", "concat", "shift", "includes", "copyWithin", "values", "some", "slice", "pop", "reduceRight", "join", "fill", "find", "unshift", "sort", "keys", "lastIndexOf", "reduce"])
+let v10 = 0;
+function v25(v26,v27,v28,v29,...v30) {
+    let v31 = v26;
+    return v26;
+}
+const v32 = v25(1337,v4);
+// v32 = .unknown
+}
+%NeverOptimizeFunction(main);
+main();

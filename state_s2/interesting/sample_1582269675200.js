@@ -1,0 +1,23 @@
+function main() {
+const v1 = [1337];
+// v1 = .object(ofGroup: Array, withProperties: ["__proto__", "constructor", "length"], withMethods: ["toString", "fill", "slice", "keys", "unshift", "reverse", "toLocaleString", "copyWithin", "splice", "findIndex", "includes", "map", "every", "find", "flat", "shift", "filter", "sort", "reduce", "lastIndexOf", "flatMap", "concat", "entries", "forEach", "push", "indexOf", "pop", "join", "values", "some", "reduceRight"])
+const v3 = [1337];
+// v3 = .object(ofGroup: Array, withProperties: ["__proto__", "constructor", "length"], withMethods: ["toString", "fill", "slice", "keys", "unshift", "reverse", "toLocaleString", "copyWithin", "splice", "findIndex", "includes", "map", "every", "find", "flat", "shift", "filter", "sort", "reduce", "lastIndexOf", "flatMap", "concat", "entries", "forEach", "push", "indexOf", "pop", "join", "values", "some", "reduceRight"])
+let v4 = v3;
+for (const v6 in "boolean") {
+    const v9 = v1 - v4;
+    // v9 = .number
+    const v10 = "boolean".__proto__;
+    // v10 = .object()
+    const v11 = v10.length;
+    // v11 = .unknown
+    let v12 = 0;
+    do {
+        const v13 = v12 + 1;
+        // v13 = .primitive
+        v12 = v13;
+    } while (v12 < 8);
+}
+}
+%NeverOptimizeFunction(main);
+main();

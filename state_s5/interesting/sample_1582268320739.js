@@ -1,0 +1,11 @@
+function main() {
+const v3 = {length:"N0Xx92zvHQ"};
+// v3 = .object(ofGroup: Object, withProperties: ["length", "__proto__"])
+const v4 = {constructor:13.37,length:13.37,__proto__:v3,toString:Number,a:"N0Xx92zvHQ"};
+// v4 = .object(ofGroup: Object, withProperties: ["constructor", "length", "__proto__", "a"], withMethods: ["toString"])
+let v5 = v4;
+v5[1785333916] = v4;
+delete v5.a;
+}
+%NeverOptimizeFunction(main);
+main();

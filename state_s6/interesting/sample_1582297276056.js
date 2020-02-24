@@ -1,0 +1,23 @@
+function main() {
+const v5 = "c"[4096];
+// v5 = .unknown
+let v7 = undefined;
+function v8(v9,v10) {
+    for (const v12 in "boolean") {
+        const v16 = Math.max(2055063519,1,1,v7);
+        // v16 = .unknown
+        for (let v19 = -1897264; v19 < 1; v19++) {
+        }
+        let v22 = 0;
+        const v23 = {get:v16,set:Object,isExtensible:v5,preventExtensions:v5,setPrototypeOf:v8,has:v8,construct:v5,defineProperty:v5,ownKeys:v5};
+        // v23 = .object(ofGroup: Object, withProperties: ["isExtensible", "preventExtensions", "__proto__", "defineProperty", "ownKeys", "get", "construct"], withMethods: ["setPrototypeOf", "has", "set"])
+    }
+}
+const v25 = [-3185661035];
+// v25 = .object(ofGroup: Array, withProperties: ["constructor", "__proto__", "length"], withMethods: ["filter", "map", "toLocaleString", "push", "splice", "forEach", "flatMap", "findIndex", "reverse", "entries", "every", "indexOf", "toString", "flat", "concat", "shift", "includes", "copyWithin", "values", "some", "slice", "pop", "reduceRight", "join", "fill", "find", "unshift", "sort", "keys", "lastIndexOf", "reduce"])
+let v26 = v25;
+const v27 = v8(v26);
+// v27 = .unknown
+}
+%NeverOptimizeFunction(main);
+main();

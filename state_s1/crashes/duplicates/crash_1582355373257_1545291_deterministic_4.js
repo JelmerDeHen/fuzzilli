@@ -1,0 +1,43 @@
+function main() {
+const v2 = 1337 > eval;
+let v5 = 0;
+const v6 = v5 + 1;
+for (const v8 in "object") {
+    const v11 = [1337,1337,1337,1337,1337];
+    function v12(v13,v14,v15,v16) {
+        'use strict'
+        try {
+            v16[3] = v16;
+        } catch(v17) {
+            const v22 = [1337,1337,1337];
+            const v23 = [3664180981,3664180981,"string","string"];
+            const v24 = {valueOf:v23,length:v22,toString:parseFloat,constructor:"string",c:parseFloat};
+            function v25(v26,v27) {
+                for (const v29 in "ruHq55V2**") {
+                    for (const v31 of "pvU0UUjoya") {
+                        const v33 = [13.37,13.37];
+                        let v34 = v33;
+                        const v36 = String(v34);
+                    }
+                }
+            }
+            const v37 = new v25(v24);
+            const v41 = [v12];
+            const v43 = [255,255,255];
+            let v45 = 0;
+            const v46 = {a:255,toString:arguments,c:v41,__proto__:v43,valueOf:DataView,constructor:"gM8oAednYn"};
+        }
+        return v11;
+    }
+    const v47 = {deleteProperty:v12,set:v12,getPrototypeOf:v12,call:v12,preventExtensions:v12,isExtensible:v12,construct:v12,get:v12,ownKeys:v12,setPrototypeOf:v12,has:v12};
+    const v49 = new Proxy(v11,v47);
+    v49[1] = "MIN_VALUE";
+}
+let v51 = 0;
+for (let v55 = 0; v55 < 1; v55++) {
+    for (const v56 of "boolean") {
+    }
+}
+}
+%NeverOptimizeFunction(main);
+main();

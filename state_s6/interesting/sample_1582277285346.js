@@ -1,0 +1,26 @@
+function main() {
+let v3 = 0;
+let v6 = 0;
+const v9 = [1337,1337,1337,1337,1337];
+// v9 = .object(ofGroup: Array, withProperties: ["constructor", "__proto__", "length"], withMethods: ["filter", "map", "toLocaleString", "push", "splice", "forEach", "flatMap", "findIndex", "reverse", "entries", "every", "indexOf", "toString", "flat", "concat", "shift", "includes", "copyWithin", "values", "some", "slice", "pop", "reduceRight", "join", "fill", "find", "unshift", "sort", "keys", "lastIndexOf", "reduce"])
+function v10(v11,v12,v13,v14) {
+    'use strict'
+    try {
+        const v18 = ["a",-9007199254740992,-9007199254740992];
+        // v18 = .object(ofGroup: Array, withProperties: ["constructor", "__proto__", "length"], withMethods: ["filter", "map", "toLocaleString", "push", "splice", "forEach", "flatMap", "findIndex", "reverse", "entries", "every", "indexOf", "toString", "flat", "concat", "shift", "includes", "copyWithin", "values", "some", "slice", "pop", "reduceRight", "join", "fill", "find", "unshift", "sort", "keys", "lastIndexOf", "reduce"])
+        const v21 = {constructor:"symbol",length:9007199254740993};
+        // v21 = .object(ofGroup: Object, withProperties: ["length", "constructor", "__proto__"])
+        const v22 = v18.indexOf(RegExp,v21);
+        // v22 = .integer
+        v14[3] = v14;
+    } catch(v23) {
+    }
+}
+const v24 = {deleteProperty:v10,set:v10,getPrototypeOf:v10,call:v10,preventExtensions:v10,isExtensible:v10,construct:v10,get:v10,ownKeys:v10,setPrototypeOf:v10,has:v10};
+// v24 = .object(ofGroup: Object, withProperties: ["__proto__"], withMethods: ["call", "ownKeys", "setPrototypeOf", "isExtensible", "get", "getPrototypeOf", "construct", "deleteProperty", "set", "preventExtensions", "has"])
+const v26 = new Proxy(v9,v24);
+// v26 = .unknown
+v26[1] = "MIN_VALUE";
+}
+%NeverOptimizeFunction(main);
+main();

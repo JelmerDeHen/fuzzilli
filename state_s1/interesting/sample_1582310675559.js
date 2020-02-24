@@ -1,0 +1,19 @@
+function main() {
+function v1(v2,v3) {
+    for (const v6 of "number") {
+        const v8 = [13.37,13.37,13.37];
+        // v8 = .object(ofGroup: Array, withProperties: ["constructor", "__proto__", "length"], withMethods: ["forEach", "filter", "unshift", "slice", "splice", "reverse", "reduce", "join", "reduceRight", "some", "pop", "copyWithin", "concat", "flatMap", "shift", "push", "lastIndexOf", "fill", "entries", "sort", "includes", "map", "toString", "values", "indexOf", "keys", "every", "flat", "toLocaleString", "find", "findIndex"])
+        let v11 = 0;
+        while (v11 < 1337) {
+            const v12 = v11 + 1;
+            // v12 = .primitive
+            v11 = v12;
+        }
+        break;
+    }
+}
+const v13 = v1(RegExp);
+// v13 = .unknown
+}
+%NeverOptimizeFunction(main);
+main();

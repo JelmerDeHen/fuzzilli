@@ -1,0 +1,16 @@
+function main() {
+const v2 = -653507721 % String;
+// v2 = .number
+let v3 = String;
+const v4 = String.fromCharCode(v3,v2);
+// v4 = .string + .object(ofGroup: String, withProperties: ["__proto__", "constructor", "length"], withMethods: ["charCodeAt", "includes", "split", "substring", "concat", "repeat", "slice", "charAt", "trim", "codePointAt", "indexOf", "padEnd", "padStart", "endsWith", "replace", "startsWith", "lastIndexOf"])
+for (const v11 of v4) {
+    try {
+        const v12 = String.fromCodePoint(v11,v2);
+        // v12 = .string + .object(ofGroup: String, withProperties: ["__proto__", "constructor", "length"], withMethods: ["charCodeAt", "includes", "split", "substring", "concat", "repeat", "slice", "charAt", "trim", "codePointAt", "indexOf", "padEnd", "padStart", "endsWith", "replace", "startsWith", "lastIndexOf"])
+    } catch(v13) {
+    }
+}
+}
+%NeverOptimizeFunction(main);
+main();

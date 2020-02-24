@@ -1,0 +1,40 @@
+function main() {
+for (const v1 in "boolean") {
+    let v4 = 0;
+    do {
+        const v7 = [1337,1337,1337,1337];
+        // v7 = .object(ofGroup: Array, withProperties: ["constructor", "__proto__", "length"], withMethods: ["forEach", "filter", "unshift", "slice", "splice", "reverse", "reduce", "join", "reduceRight", "some", "pop", "copyWithin", "concat", "flatMap", "shift", "push", "lastIndexOf", "fill", "entries", "sort", "includes", "map", "toString", "values", "indexOf", "keys", "every", "flat", "toLocaleString", "find", "findIndex"])
+        const v8 = {b:2147483647};
+        // v8 = .object(ofGroup: Object, withProperties: ["__proto__", "b"])
+        function v9(v10,v11) {
+            function v13(v14,v15) {
+                function v16(v17,v18) {
+                    const v20 = {ownKeys:v18,preventExtensions:v18,defineProperty:v16,getPrototypeOf:v18,deleteProperty:v18,has:v16,set:v17,apply:v18};
+                    // v20 = .object(ofGroup: Object, withProperties: ["deleteProperty", "preventExtensions", "getPrototypeOf", "__proto__", "apply", "set", "ownKeys"], withMethods: ["has", "defineProperty"])
+                    const v22 = new Proxy(v16,v20);
+                    // v22 = .unknown
+                    const v23 = {toString:0,...Proxy,...v16,...v22};
+                    // v23 = .object(ofGroup: Object, withProperties: ["__proto__", "toString"])
+                }
+                const v25 = [1337];
+                // v25 = .object(ofGroup: Array, withProperties: ["constructor", "__proto__", "length"], withMethods: ["forEach", "filter", "unshift", "slice", "splice", "reverse", "reduce", "join", "reduceRight", "some", "pop", "copyWithin", "concat", "flatMap", "shift", "push", "lastIndexOf", "fill", "entries", "sort", "includes", "map", "toString", "values", "indexOf", "keys", "every", "flat", "toLocaleString", "find", "findIndex"])
+                let v26 = v25;
+                const v27 = v16(v26);
+                // v27 = .unknown
+            }
+            const v29 = [1337];
+            // v29 = .object(ofGroup: Array, withProperties: ["constructor", "__proto__", "length"], withMethods: ["forEach", "filter", "unshift", "slice", "splice", "reverse", "reduce", "join", "reduceRight", "some", "pop", "copyWithin", "concat", "flatMap", "shift", "push", "lastIndexOf", "fill", "entries", "sort", "includes", "map", "toString", "values", "indexOf", "keys", "every", "flat", "toLocaleString", "find", "findIndex"])
+            let v30 = v29;
+            const v31 = v13(v30);
+            // v31 = .unknown
+        }
+        const v32 = v7.findIndex(v9,v8);
+        // v32 = .integer
+        const v33 = v4 + 1;
+        // v33 = .primitive
+        v4 = v33;
+    } while (v4 < 8);
+}
+}
+%NeverOptimizeFunction(main);
+main();

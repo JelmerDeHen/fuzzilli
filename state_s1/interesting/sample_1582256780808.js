@@ -1,0 +1,25 @@
+function main() {
+function v0(v1,v2) {
+    let v6 = 0;
+    do {
+        let v9 = 0;
+        do {
+            const v10 = v9 + 1;
+            // v10 = .primitive
+            for (let v13 = 0; v13 < v9; v13++) {
+            }
+            v9 = v10;
+        } while (v9 < 7);
+        const v14 = v6 + 1;
+        // v14 = .primitive
+        v6 = v14;
+    } while (v6 < 8);
+}
+const v16 = [1337];
+// v16 = .object(ofGroup: Array, withProperties: ["constructor", "__proto__", "length"], withMethods: ["forEach", "filter", "unshift", "slice", "splice", "reverse", "reduce", "join", "reduceRight", "some", "pop", "copyWithin", "concat", "flatMap", "shift", "push", "lastIndexOf", "fill", "entries", "sort", "includes", "map", "toString", "values", "indexOf", "keys", "every", "flat", "toLocaleString", "find", "findIndex"])
+let v17 = v16;
+const v18 = v0(v17);
+// v18 = .unknown
+}
+%NeverOptimizeFunction(main);
+main();

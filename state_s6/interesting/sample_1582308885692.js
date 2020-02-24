@@ -1,0 +1,18 @@
+function main() {
+const v2 = [13.37,13.37,13.37,13.37];
+// v2 = .object(ofGroup: Array, withProperties: ["constructor", "__proto__", "length"], withMethods: ["filter", "map", "toLocaleString", "push", "splice", "forEach", "flatMap", "findIndex", "reverse", "entries", "every", "indexOf", "toString", "flat", "concat", "shift", "includes", "copyWithin", "values", "some", "slice", "pop", "reduceRight", "join", "fill", "find", "unshift", "sort", "keys", "lastIndexOf", "reduce"])
+function v3(v4,v5) {
+    const v8 = gc(...arguments);
+    // v8 = .undefined
+    let v13 = 0;
+    while (v13 < 1337) {
+        const v14 = v13 + 1;
+        // v14 = .primitive
+        v13 = v14;
+    }
+}
+const v15 = v2.sort(v3);
+// v15 = .undefined
+}
+%NeverOptimizeFunction(main);
+main();

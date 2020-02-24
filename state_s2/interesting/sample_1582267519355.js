@@ -1,0 +1,27 @@
+function main() {
+let v3 = 0;
+do {
+    const v4 = v3 + 1;
+    // v4 = .primitive
+    function v5(v6,v7) {
+        arguments[v4] = "boolean";
+        for (let v12 = 0; v12 < 10; v12++) {
+            function v13(v14,v15) {
+            }
+        }
+        arguments[1] = "boolean";
+    }
+    const v17 = [1337];
+    // v17 = .object(ofGroup: Array, withProperties: ["__proto__", "constructor", "length"], withMethods: ["toString", "fill", "slice", "keys", "unshift", "reverse", "toLocaleString", "copyWithin", "splice", "findIndex", "includes", "map", "every", "find", "flat", "shift", "filter", "sort", "reduce", "lastIndexOf", "flatMap", "concat", "entries", "forEach", "push", "indexOf", "pop", "join", "values", "some", "reduceRight"])
+    let v18 = v17;
+    const v19 = v5(v18);
+    // v19 = .unknown
+    v3 = v4;
+} while (v3 < 7);
+let v22 = 0;
+const v23 = v22 + 1;
+// v23 = .primitive
+v22 = v23;
+}
+%NeverOptimizeFunction(main);
+main();

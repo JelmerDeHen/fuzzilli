@@ -1,0 +1,21 @@
+function main() {
+let v2 = undefined;
+let v5 = 0;
+for (const v6 in "boolean") {
+    let v8 = v5;
+    const v9 = v8 >= 0;
+    // v9 = .boolean
+    let v11 = 0;
+    const v12 = v11 + 1;
+    // v12 = .primitive
+    v11 = v12;
+    const v13 = v9 / 4096;
+    // v13 = .number
+    delete v13[v13];
+}
+const v15 = [1337,1337,1337,1337];
+// v15 = .object(ofGroup: Array, withProperties: ["__proto__", "length", "constructor"], withMethods: ["shift", "findIndex", "reduce", "toString", "flatMap", "unshift", "map", "flat", "fill", "slice", "keys", "some", "splice", "entries", "push", "filter", "toLocaleString", "every", "indexOf", "forEach", "copyWithin", "reverse", "find", "includes", "reduceRight", "values", "join", "concat", "pop", "sort", "lastIndexOf"])
+let v22 = 0;
+}
+%NeverOptimizeFunction(main);
+main();

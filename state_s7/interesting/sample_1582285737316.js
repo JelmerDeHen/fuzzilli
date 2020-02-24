@@ -1,0 +1,21 @@
+function main() {
+const v1 = [13.37];
+// v1 = .object(ofGroup: Array, withProperties: ["constructor", "__proto__", "length"], withMethods: ["pop", "flatMap", "push", "values", "toLocaleString", "indexOf", "copyWithin", "lastIndexOf", "find", "unshift", "keys", "toString", "findIndex", "some", "reduceRight", "reduce", "entries", "splice", "shift", "slice", "concat", "fill", "sort", "includes", "forEach", "filter", "every", "join", "flat", "reverse", "map"])
+const v3 = [1337,1337,1337];
+// v3 = .object(ofGroup: Array, withProperties: ["constructor", "__proto__", "length"], withMethods: ["pop", "flatMap", "push", "values", "toLocaleString", "indexOf", "copyWithin", "lastIndexOf", "find", "unshift", "keys", "toString", "findIndex", "some", "reduceRight", "reduce", "entries", "splice", "shift", "slice", "concat", "fill", "sort", "includes", "forEach", "filter", "every", "join", "flat", "reverse", "map"])
+const v5 = Symbol.unscopables;
+// v5 = .unknown
+const v6 = v1[v5];
+// v6 = .unknown
+let v9 = 0;
+const v11 = v9 + 1;
+// v11 = .primitive
+v9 = v11;
+try {
+    const v12 = (0)[v6];
+    // v12 = .unknown
+} catch(v13) {
+}
+}
+%NeverOptimizeFunction(main);
+main();

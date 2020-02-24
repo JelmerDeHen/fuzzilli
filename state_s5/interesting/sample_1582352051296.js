@@ -1,0 +1,9 @@
+function main() {
+const v3 = new Int32Array(Int32Array);
+// v3 = .object(ofGroup: Int32Array, withProperties: ["constructor", "buffer", "byteOffset", "byteLength", "__proto__", "length"], withMethods: ["find", "sort", "indexOf", "subarray", "entries", "reduce", "reverse", "values", "keys", "forEach", "set", "filter", "findIndex", "includes", "join", "slice", "copyWithin", "reduceRight", "fill", "map", "lastIndexOf", "some", "every"])
+v3.constructor = Uint32Array;
+const v5 = v3.slice(-30109.187644544523,1337);
+// v5 = .object(ofGroup: Int32Array, withProperties: ["length", "constructor", "byteOffset", "__proto__", "buffer", "byteLength"], withMethods: ["forEach", "reduce", "reverse", "slice", "subarray", "map", "find", "join", "lastIndexOf", "includes", "copyWithin", "sort", "some", "indexOf", "entries", "every", "filter", "fill", "findIndex", "keys", "set", "reduceRight", "values"])
+}
+%NeverOptimizeFunction(main);
+main();

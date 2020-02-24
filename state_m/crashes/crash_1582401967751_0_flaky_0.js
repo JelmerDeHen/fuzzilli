@@ -1,0 +1,54 @@
+function main() {
+const v4 = [13.37,13.37,13.37,13.37];
+const v6 = [1337,1337,1337,1337,1337];
+const v7 = [v6];
+const v8 = {d:"number",b:13.37,c:4,toString:4,a:1337};
+const v9 = {length:4,d:"number",constructor:Number,__proto__:v8,a:v4};
+let v10 = 4;
+const v12 = [13.37,13.37,13.37,13.37];
+const v14 = [1337,1337,1337,1337];
+const v18 = [1337,1337,1337,1337,1337];
+function v19(v20,v21,v22,v23) {
+    'use strict'
+    try {
+        v23[3] = v23;
+    } catch(v24) {
+        const v28 = [-2331916614,v19,-2331916614];
+        const v29 = [3664180981,3664180981,"string","string"];
+        function v30(v31,v32) {
+            const v36 = [1337,1337,1337,1337,1337];
+            function v37(v38,v39,v40,v41) {
+                'use strict'
+                try {
+                    const v42 = new Float64Array(v40);
+                    function v44(v45,v46,v47,v48,v49) {
+                        'use strict'
+                        return v44;
+                    }
+                    const v50 = v44.toLocaleString();
+                    const v52 = [];
+                    const v53 = {a:v52};
+                    const v54 = {__proto__:eval,constructor:v53,length:v52};
+                    const v56 = Object.defineProperty(this,1337,v41);
+                } catch(v57) {
+                    try {
+                        const v58 = v38[3];
+                    } catch(v59) {
+                        v57.valueOf = v57;
+                    }
+                }
+                return v37;
+            }
+            const v60 = {deleteProperty:v37,set:v37,getPrototypeOf:v37,call:v37,preventExtensions:v37,isExtensible:v37,construct:v37,get:v37,ownKeys:v37,setPrototypeOf:v37,has:v37};
+            const v62 = new Proxy(v36,v60);
+            v62[1] = "MIN_VALUE";
+        }
+        const v63 = v30();
+    }
+}
+const v64 = {deleteProperty:v19,set:v19,getPrototypeOf:v19,call:v19,preventExtensions:v19,isExtensible:v19,construct:v19,get:v19,ownKeys:v19,setPrototypeOf:v19,has:v19};
+const v66 = new Proxy(v18,v64);
+v66[1] = "MIN_VALUE";
+}
+%NeverOptimizeFunction(main);
+main();

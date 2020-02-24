@@ -1,0 +1,24 @@
+function main() {
+const v2 = [13.37];
+// v2 = .object(ofGroup: Array, withProperties: ["__proto__", "constructor", "length"], withMethods: ["toString", "fill", "slice", "keys", "unshift", "reverse", "toLocaleString", "copyWithin", "splice", "findIndex", "includes", "map", "every", "find", "flat", "shift", "filter", "sort", "reduce", "lastIndexOf", "flatMap", "concat", "entries", "forEach", "push", "indexOf", "pop", "join", "values", "some", "reduceRight"])
+function v3(v4,v5) {
+    for (const v7 in "boolean") {
+        let v10 = 0;
+        const v13 = new Int32Array(13.37);
+        // v13 = .object(ofGroup: Int32Array, withProperties: ["buffer", "byteOffset", "byteLength", "constructor", "length", "__proto__"], withMethods: ["entries", "copyWithin", "slice", "sort", "reduce", "join", "some", "indexOf", "lastIndexOf", "keys", "find", "forEach", "map", "set", "every", "reduceRight", "fill", "findIndex", "reverse", "includes", "values", "filter", "subarray"])
+        const v14 = v10 + 1;
+        // v14 = .primitive
+        v10 = v14;
+        const v15 = v5(0,v13,v10,v2);
+        // v15 = .unknown
+    }
+}
+const v19 = ["nVkEIOUd+c",13.37];
+// v19 = .object(ofGroup: Array, withProperties: ["__proto__", "constructor", "length"], withMethods: ["toString", "fill", "slice", "keys", "unshift", "reverse", "toLocaleString", "copyWithin", "splice", "findIndex", "includes", "map", "every", "find", "flat", "shift", "filter", "sort", "reduce", "lastIndexOf", "flatMap", "concat", "entries", "forEach", "push", "indexOf", "pop", "join", "values", "some", "reduceRight"])
+const v20 = {b:v19};
+// v20 = .object(ofGroup: Object, withProperties: ["b", "__proto__"])
+const v21 = new Promise(v3,v20,"undefined",v2,"undefined");
+// v21 = .object()
+}
+%NeverOptimizeFunction(main);
+main();

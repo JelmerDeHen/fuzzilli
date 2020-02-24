@@ -1,0 +1,54 @@
+function main() {
+const v3 = [13.37,13.37,13.37,13.37];
+const v5 = [1337,1337,1337,1337,1337];
+const v6 = [13.37,"search"];
+const v7 = {};
+const v8 = {length:v5,a:1337,b:v5,__proto__:Array,e:13.37,toString:v3,valueOf:"search"};
+const v11 = [1337,1337,1337,1337,1337];
+function v12(v13,v14,v15,v16) {
+    'use strict'
+    try {
+        v16[3] = v16;
+    } catch(v17) {
+        const v22 = [-2331916614,-2331916614,-2331916614];
+        const v23 = [3664180981,3664180981,"string","string"];
+        const v24 = {valueOf:v23,length:v22,toString:parseFloat,constructor:"string",c:parseFloat};
+        function v25(v26,v27) {
+            for (const v29 in "ruHq55V2**") {
+                const v33 = [1337,1337,1337,1337,1337];
+                function v34(v35,v36,v37,v38) {
+                    'use strict'
+                    try {
+                        const v39 = new Float64Array(v37);
+                        function v42(v43,v44,v45,v46,v47) {
+                            'use strict'
+                        }
+                        const v48 = v42.toLocaleString();
+                        const v50 = [];
+                        const v51 = {a:v50};
+                        const v52 = {__proto__:eval,constructor:v51,length:v50};
+                        const v54 = v52.__proto__(v48,v36,19873,Symbol);
+                        const v56 = Object.defineProperty(this,1337,v38);
+                    } catch(v57) {
+                        try {
+                            const v58 = v35[3];
+                        } catch(v59) {
+                            v57.valueOf = v59;
+                        }
+                    }
+                    return v34;
+                }
+                const v60 = {deleteProperty:v34,set:v34,getPrototypeOf:v34,call:v34,preventExtensions:v34,isExtensible:v34,construct:v34,get:v34,ownKeys:v34,setPrototypeOf:v34,has:v34};
+                const v62 = new Proxy(v33,v60);
+                v62[1] = "MIN_VALUE";
+            }
+        }
+        const v63 = v25(v24);
+    }
+}
+const v64 = {deleteProperty:v12,set:v12,getPrototypeOf:v12,call:v12,preventExtensions:v12,isExtensible:v12,construct:v12,get:v12,ownKeys:v12,setPrototypeOf:v12,has:v12};
+const v66 = new Proxy(v11,v64);
+const v67 = v12(..."search",...v66);
+}
+%NeverOptimizeFunction(main);
+main();

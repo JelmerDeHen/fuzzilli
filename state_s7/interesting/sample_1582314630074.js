@@ -1,0 +1,18 @@
+function main() {
+const v4 = [13.37];
+// v4 = .object(ofGroup: Array, withProperties: ["constructor", "__proto__", "length"], withMethods: ["pop", "flatMap", "push", "values", "toLocaleString", "indexOf", "copyWithin", "lastIndexOf", "find", "unshift", "keys", "toString", "findIndex", "some", "reduceRight", "reduce", "entries", "splice", "shift", "slice", "concat", "fill", "sort", "includes", "forEach", "filter", "every", "join", "flat", "reverse", "map"])
+const v6 = [-3623254464,3];
+// v6 = .object(ofGroup: Array, withProperties: ["constructor", "__proto__", "length"], withMethods: ["pop", "flatMap", "push", "values", "toLocaleString", "indexOf", "copyWithin", "lastIndexOf", "find", "unshift", "keys", "toString", "findIndex", "some", "reduceRight", "reduce", "entries", "splice", "shift", "slice", "concat", "fill", "sort", "includes", "forEach", "filter", "every", "join", "flat", "reverse", "map"])
+const v7 = {valueOf:v4,d:Infinity,toString:3,b:3,length:"number",constructor:v6};
+// v7 = .object(ofGroup: Object, withProperties: ["valueOf", "length", "constructor", "__proto__", "toString", "b", "d"])
+let v8 = v7;
+try {
+    function v10(v11,v12,v13,v14) {
+    }
+    const v15 = Reflect.getOwnPropertyDescriptor(v8,v8,v10);
+    // v15 = .unknown
+} catch(v16) {
+}
+}
+%NeverOptimizeFunction(main);
+main();

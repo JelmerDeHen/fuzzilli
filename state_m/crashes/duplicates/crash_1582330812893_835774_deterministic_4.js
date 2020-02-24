@@ -1,0 +1,59 @@
+function main() {
+const v3 = [13.37,13.37];
+const v5 = [1337,1337,1337];
+const v6 = ["9MPBdIqtTz",4294967296,"9MPBdIqtTz"];
+const v7 = {b:v3,c:"9MPBdIqtTz"};
+const v8 = {};
+let v9 = v6;
+const v14 = [13.37,13.37,13.37];
+const v16 = [1337,1337,1337,1337];
+const v17 = [v16,1337];
+const v18 = {e:Number,d:798072795,toString:v14};
+const v19 = {e:1337};
+let v20 = v14;
+const v22 = [13.37];
+for (const v24 in "object") {
+    const v27 = [1337,1337,1337,1337,1337];
+    function v28(v29,v30,v31,v32) {
+        'use strict'
+        try {
+            v32[3] = v32;
+        } catch(v33) {
+            const v40 = [1337,1337,1337];
+            const v41 = [3664180981,3664180981,"string","string"];
+            const v42 = {valueOf:v41,length:v40,toString:parseFloat,constructor:"string",c:parseFloat};
+            function v43(v44,v45) {
+                for (const v47 in "ruHq55V2**") {
+                    for (const v49 of "pvU0UUjoya") {
+                        const v52 = [13.37,13.37];
+                        let v53 = v52;
+                        const v55 = String(v53);
+                        for (const v56 of "7f7Rh5ttYX") {
+                            const v57 = v55[v56];
+                        }
+                    }
+                }
+            }
+            const v58 = v40.__proto__;
+            const v59 = v43();
+            const v62 = Math.hypot(-1970853828,13.37,"boolean");
+            const v66 = [1337,1337,1337,1337,1337];
+            const v67 = [Map,1337];
+            const v68 = {b:1337,__proto__:13.37,valueOf:v67,e:13.37};
+            let v71 = gc;
+            const v72 = new Proxy(v66,v68);
+            const v74 = [Infinity,Infinity,Infinity];
+        }
+        return v27;
+    }
+    const v75 = {deleteProperty:v28,set:v28,getPrototypeOf:v28,call:v28,preventExtensions:v28,isExtensible:v28,construct:v28,get:v28,ownKeys:v28,setPrototypeOf:v28,has:v28};
+    const v77 = new Proxy(v27,v75);
+    v77[1] = "MIN_VALUE";
+}
+let v78 = v16;
+const v79 = v18[v17];
+const v80 = "+XJ5VnnAL5".includes();
+const v81 = Number();
+}
+%NeverOptimizeFunction(main);
+main();

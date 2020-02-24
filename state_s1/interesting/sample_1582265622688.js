@@ -1,0 +1,49 @@
+function main() {
+const v3 = {preventExtensions:gc,get:gc,set:gc,apply:gc,getPrototypeOf:gc,ownKeys:gc,getOwnPropertyDescriptor:gc,construct:gc,defineProperty:gc,isExtensible:gc,deleteProperty:gc};
+// v3 = .object(ofGroup: Object, withProperties: ["__proto__"], withMethods: ["preventExtensions", "get", "isExtensible", "getOwnPropertyDescriptor", "set", "apply", "getPrototypeOf", "construct", "deleteProperty", "ownKeys", "defineProperty"])
+const v5 = new ArrayBuffer(gc,v3);
+// v5 = .object(ofGroup: ArrayBuffer, withProperties: ["__proto__", "byteLength"], withMethods: ["slice"])
+function v7(v8,v9) {
+    let v13 = 0;
+    const v14 = v13 + 1;
+    // v14 = .primitive
+    v13 = v14;
+    let v17 = 0;
+    const v18 = v17 + 1;
+    // v18 = .primitive
+    v17 = v18;
+    let v25 = 0;
+    for (const v26 in "boolean") {
+        let v29 = 0;
+        do {
+            let v32 = 0;
+            const v33 = v32 + 1;
+            // v33 = .primitive
+            v32 = v33;
+            let v36 = 0;
+            const v37 = v29 + 1;
+            // v37 = .primitive
+            v29 = v37;
+            const v38 = v5[1893352411];
+            // v38 = .unknown
+            let v41 = 0;
+        } while (v29 < 8);
+    }
+    const v46 = [1337,1337,1337,1337];
+    // v46 = .object(ofGroup: Array, withProperties: ["constructor", "__proto__", "length"], withMethods: ["forEach", "filter", "unshift", "slice", "splice", "reverse", "reduce", "join", "reduceRight", "some", "pop", "copyWithin", "concat", "flatMap", "shift", "push", "lastIndexOf", "fill", "entries", "sort", "includes", "map", "toString", "values", "indexOf", "keys", "every", "flat", "toLocaleString", "find", "findIndex"])
+    for (const v47 of v46) {
+        return v47;
+    }
+}
+const v50 = [1337];
+// v50 = .object(ofGroup: Array, withProperties: ["constructor", "__proto__", "length"], withMethods: ["forEach", "filter", "unshift", "slice", "splice", "reverse", "reduce", "join", "reduceRight", "some", "pop", "copyWithin", "concat", "flatMap", "shift", "push", "lastIndexOf", "fill", "entries", "sort", "includes", "map", "toString", "values", "indexOf", "keys", "every", "flat", "toLocaleString", "find", "findIndex"])
+let v51 = v50;
+const v52 = v7(v51);
+// v52 = .unknown
+const v53 = v7(1024,4.0);
+// v53 = .unknown
+const v54 = v7();
+// v54 = .unknown
+}
+%NeverOptimizeFunction(main);
+main();

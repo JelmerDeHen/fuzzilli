@@ -1,0 +1,66 @@
+function main() {
+const v4 = new Uint32Array();
+const v6 = new Float32Array();
+const v7 = [13.37,13.37];
+const v9 = [1337,1337,1337,1337,1337];
+const v10 = [Number,Number];
+const v11 = {valueOf:13.37,length:v7,e:1337,a:"POSITIVE_INFINITY"};
+const v12 = {length:"POSITIVE_INFINITY",__proto__:v11,constructor:13.37,toString:v9,b:Number,a:Number};
+let v13 = 13.37;
+const v15 = [13.37,13.37,13.37,13.37];
+const v17 = [1337,1337,1337,1337];
+const v18 = [];
+const v19 = {b:1337,c:v15,d:13.37,a:v17,length:v18,valueOf:1337};
+const v22 = [1337,1337,1337,1337,1337];
+function v23(v24,v25,v26,v27) {
+    'use strict'
+}
+const v28 = {deleteProperty:v23,set:v23,getPrototypeOf:v23,call:v23,preventExtensions:v23,isExtensible:v23,construct:v23,get:v23,ownKeys:v23,setPrototypeOf:v23,has:v23};
+const v30 = new Proxy(v22,v28);
+const v33 = [1337,1337,1337,1337,1337];
+function v34(v35,v36,v37,v38) {
+    'use strict'
+    try {
+        v38[3] = v38;
+    } catch(v39) {
+        const v44 = [-2331916614,-2331916614,-2331916614];
+        const v45 = [3664180981,3664180981,"string","string"];
+        const v46 = {valueOf:v45,length:v44,toString:parseFloat,constructor:"string",c:parseFloat};
+        function v47(v48,v49) {
+            const v53 = [1337,1337,1337,1337,1337];
+            function v54(v55,v56,v57,v58) {
+                'use strict'
+                try {
+                    const v59 = new Float64Array(v57);
+                    function v62(v63,v64,v65,v66,v67) {
+                        'use strict'
+                    }
+                    const v68 = v62.toLocaleString();
+                    const v70 = [];
+                    const v71 = {a:v70};
+                    const v72 = {__proto__:eval,constructor:v71,length:v70};
+                    let v75 = 0;
+                    const v76 = v72.__proto__(v68,v75,19873,Symbol);
+                    const v78 = Object.defineProperty(this,1337,v58);
+                } catch(v79) {
+                    try {
+                        const v80 = v55[3];
+                    } catch(v81) {
+                        v79.valueOf = v79;
+                    }
+                }
+                return v54;
+            }
+            const v82 = {deleteProperty:v54,set:v54,getPrototypeOf:v54,call:v54,preventExtensions:v54,isExtensible:v54,construct:v54,get:v54,ownKeys:v54,setPrototypeOf:v54,has:v54};
+            const v84 = new Proxy(v53,v82);
+            v84[1] = "MIN_VALUE";
+        }
+        const v85 = v47();
+    }
+}
+const v86 = {deleteProperty:v34,set:v34,getPrototypeOf:v34,call:v34,preventExtensions:v34,isExtensible:v34,construct:v34,get:v34,ownKeys:v34,setPrototypeOf:v34,has:v34};
+const v88 = new Proxy(v33,v86);
+v88[1] = "MIN_VALUE";
+}
+%NeverOptimizeFunction(main);
+main();

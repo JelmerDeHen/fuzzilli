@@ -1,0 +1,36 @@
+function main() {
+const v4 = [13.37];
+// v4 = .object(ofGroup: Array, withProperties: ["constructor", "__proto__", "length"], withMethods: ["filter", "map", "toLocaleString", "push", "splice", "forEach", "flatMap", "findIndex", "reverse", "entries", "every", "indexOf", "toString", "flat", "concat", "shift", "includes", "copyWithin", "values", "some", "slice", "pop", "reduceRight", "join", "fill", "find", "unshift", "sort", "keys", "lastIndexOf", "reduce"])
+const v6 = [1337,1337];
+// v6 = .object(ofGroup: Array, withProperties: ["constructor", "__proto__", "length"], withMethods: ["filter", "map", "toLocaleString", "push", "splice", "forEach", "flatMap", "findIndex", "reverse", "entries", "every", "indexOf", "toString", "flat", "concat", "shift", "includes", "copyWithin", "values", "some", "slice", "pop", "reduceRight", "join", "fill", "find", "unshift", "sort", "keys", "lastIndexOf", "reduce"])
+const v7 = [1337,"gcyFsZ7xWv","gcyFsZ7xWv"];
+// v7 = .object(ofGroup: Array, withProperties: ["constructor", "__proto__", "length"], withMethods: ["filter", "map", "toLocaleString", "push", "splice", "forEach", "flatMap", "findIndex", "reverse", "entries", "every", "indexOf", "toString", "flat", "concat", "shift", "includes", "copyWithin", "values", "some", "slice", "pop", "reduceRight", "join", "fill", "find", "unshift", "sort", "keys", "lastIndexOf", "reduce"])
+const v8 = {__proto__:3519498227,d:13.37,a:3519498227,length:v7,e:v7,b:isNaN};
+// v8 = .object(ofGroup: Object, withProperties: ["e", "d", "a", "__proto__", "length"], withMethods: ["b"])
+const v9 = {length:1337};
+// v9 = .object(ofGroup: Object, withProperties: ["__proto__", "length"])
+let v10 = v9;
+const v14 = [1337,1337];
+// v14 = .object(ofGroup: Array, withProperties: ["constructor", "__proto__", "length"], withMethods: ["filter", "map", "toLocaleString", "push", "splice", "forEach", "flatMap", "findIndex", "reverse", "entries", "every", "indexOf", "toString", "flat", "concat", "shift", "includes", "copyWithin", "values", "some", "slice", "pop", "reduceRight", "join", "fill", "find", "unshift", "sort", "keys", "lastIndexOf", "reduce"])
+function v15(v16,v17) {
+    const v18 = v16 in v15;
+    // v18 = .boolean
+    const v19 = ~-1024;
+    // v19 = .boolean
+    for (const v24 in "boolean") {
+        let v27 = 0;
+        do {
+            for (let v38 = 0; v38 < 0; v38 = v38 + -4294967295) {
+                for (let v42 = 0; v42 < 100; v42--) {
+                }
+            }
+        } while (v27 < 8);
+    }
+    function v45(v46,v47) {
+        let v52 = v47;
+    }
+}
+let v79 = 0;
+}
+%NeverOptimizeFunction(main);
+main();

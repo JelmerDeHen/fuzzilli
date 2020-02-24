@@ -1,0 +1,166 @@
+function main() {
+const v4 = [13.37,13.37,13.37,13.37];
+const v6 = [1337,1337];
+const v7 = [9007199254740991,v6,v6,v4];
+const v8 = {__proto__:v7,d:v7,toString:1337};
+const v9 = {toString:v4,__proto__:NaN,b:1337,c:v8,a:NaN,d:9007199254740991};
+let v10 = "E";
+const v12 = [1337,1337,1337];
+let v13 = v12;
+const v16 = [-1882595336,-1882595336,-1882595336,-1882595336,-1882595336];
+function v17(v18,v19,v20,v21) {
+    'use strict'
+    const v23 = new Float32Array();
+    const v28 = [13.37];
+    const v30 = [1337,1337,1337];
+    const v31 = ["boolean",Symbol,Symbol,13.37];
+    const v32 = {};
+    const v33 = {d:Symbol,e:1593360508,a:Symbol};
+    let v34 = Symbol;
+    const v37 = 1.7976931348623157e+308 / -4285653262;
+    const v39 = [1000.0,1000.0,1000.0];
+    const v44 = [13.37,13.37];
+    const v46 = [1337,1337,1337,1337,1337];
+    const v47 = [v46];
+    const v48 = {b:"string",valueOf:"string",toString:v44,__proto__:ArrayBuffer,a:128,length:128};
+    const v51 = [13.37,13.37,13.37,13.37,13.37];
+    const v53 = [1337,1337,1337,1337,1337];
+    const v54 = [];
+    const v55 = {b:v53,d:Promise,__proto__:13.37};
+    const v56 = {b:13.37,e:Promise,a:13.37,d:13.37,__proto__:v53,length:Promise};
+    let v57 = 13.37;
+    const v59 = [1337];
+    let v60 = v59;
+    const v64 = {preventExtensions:Object,defineProperty:gc,isExtensible:gc,getOwnPropertyDescriptor:gc,ownKeys:Object,get:Object,apply:gc,call:gc,getPrototypeOf:gc,construct:v60};
+    const v69 = [13.37];
+    const v71 = [1337];
+    const v72 = [];
+    const v73 = {c:v71,b:1000};
+    const v74 = {e:1000,length:"+.dMjypHPZ",c:"+.dMjypHPZ",b:Function,a:"+.dMjypHPZ"};
+    let v75 = 1337;
+    const v77 = [1337,1337];
+    const v79 = new Uint16Array();
+    const v80 = v77.constructor;
+    const v81 = v80.apply();
+    let v83 = 0;
+    const v85 = [1337];
+    let v86 = v85;
+    let v88 = undefined;
+    const v91 = [1337];
+    let v94 = 257;
+    const v96 = [Infinity,Infinity,"N*d4*m/H0F"];
+    const v97 = [v94,v96];
+    const v98 = v97.toLocaleString();
+    const v99 = [13.37];
+    let v101 = v99;
+    const v102 = new Float32Array();
+    const v103 = v102.fill();
+    let v105 = 0;
+    for (let v109 = 0; v109 < 1; v109++) {
+    }
+    const v111 = [1337];
+    const v114 = [1337,1337,1337,1337,1337];
+    function v115(v116,v117,v118,v119) {
+        'use strict'
+        try {
+            v119[3] = v119;
+        } catch(v120) {
+            const v122 = [13.37,13.37];
+            let v124 = 0;
+            const v129 = [13.37,13.37,13.37,13.37];
+            const v131 = [1337,1337,1337,1337,1337];
+            const v132 = [1337,13.37,"DwTSpuldnd"];
+            const v133 = {valueOf:3865653669,d:isNaN,b:"DwTSpuldnd",constructor:v131,e:13.37,toString:v131,c:13.37};
+            const v134 = {e:v131,constructor:3865653669,__proto__:v131,c:"DwTSpuldnd",a:v131,toString:v133};
+            const v139 = [Uint8ClampedArray,13.37];
+            const v141 = [1337,1337];
+            const v143 = {has:Int8Array,call:Int8Array};
+            const v145 = new Proxy(Int8Array,v143);
+            let v152 = 0;
+            const v153 = 1337 || 688589994;
+            const v154 = new v145(v153,v152,"boolean",NaN,1);
+            const v156 = [1337,1337,1337,1337,1337];
+            function v157(v158,v159) {
+            }
+            const v160 = v156.forEach(v157);
+            const v161 = [1337,"tN5ClO.kfZ",v139,v141];
+            const v162 = {valueOf:v141,constructor:1337,e:536870912,__proto__:Uint8ClampedArray,c:13.37,a:v139};
+            const v163 = {a:536870912,toString:13.37};
+            let v164 = 1337;
+            const v166 = new Int16Array();
+            const v168 = Object.entries(v166);
+            const v175 = [13.37,13.37,13.37,13.37];
+            const v176 = {toString:v175,valueOf:2147483648,constructor:"NEGATIVE_INFINITY",length:RegExp,__proto__:RegExp,b:RegExp,d:13.37,a:2147483648,c:13.37};
+            const v177 = {};
+            let v183 = 13.37;
+            let v184 = v183;
+            const v186 = -Infinity;
+            const v187 = [v186];
+            const v189 = {constructor:-4294967295,length:1337,__proto__:v187};
+            const v190 = v187.includes();
+            const v191 = v189.toLocaleString();
+            const v192 = parseInt();
+            const v194 = [13.37,13.37];
+            const v196 = [1337,1337,1337];
+            const v197 = [v196,v194];
+            const v198 = {c:v197,valueOf:Uint8ClampedArray,e:2600425381,constructor:1337};
+            const v201 = [v177];
+            let v202 = v201;
+            const v205 = [13.37,13.37,13.37,13.37];
+            const v206 = {__proto__:"hasInstance",d:v205};
+            const v208 = {call:v206};
+            const v210 = new Proxy(Array,v208);
+            const v211 = new Uint8ClampedArray();
+            const v212 = {toString:v210,constructor:1337,b:"buffer",...v202,...v211,...v198,...undefined};
+            const v213 = [13.37,13.37,13.37];
+            const v215 = [1337,1337,1337];
+            const v216 = [];
+            const v217 = {b:v216,length:1337,valueOf:1337,toString:RegExp};
+            const v218 = {length:v213,valueOf:v217,c:v215,e:1337,__proto__:v216};
+            const v220 = [1337,1337,1337,1337];
+            let v223 = 0;
+            const v224 = v223 + 1;
+            const v229 = [];
+            const v230 = {valueOf:v229,length:13.37,d:127,e:127};
+            const v231 = {c:v229,valueOf:v230,d:Array,a:1337};
+            const v232 = v220 != v231;
+            let v234 = 0;
+            const v235 = v234 + 1;
+            const v236 = {has:Array};
+            const v239 = [13.37,13.37,13.37,13.37];
+            const v240 = new Set();
+            let v242 = 0;
+            const v243 = v242 + 1;
+            const v245 = [1337];
+            let v246 = v245;
+            let v248 = undefined;
+            const v249 = v240.add();
+            const v252 = new Int16Array();
+            const v256 = [1337,1337];
+            const v257 = {b:13.37,d:1607264097,e:1607264097,constructor:v256,valueOf:WeakSet};
+            let v259 = 0;
+            const v260 = v259 + 1;
+            const v262 = new Proxy(v231,v236);
+            let v265 = 0;
+            const v266 = v265 + 1;
+            let v268 = 0;
+            let v270 = 0;
+            const v271 = v270 + 1;
+            const v272 = v262 instanceof Object;
+            let v273 = v218;
+        }
+        return v111;
+    }
+    const v274 = {deleteProperty:v115,set:v115,getPrototypeOf:v115,call:v115,preventExtensions:v115,isExtensible:v115,construct:v115,get:v115,ownKeys:v115,setPrototypeOf:v115,has:v115};
+    const v276 = new Proxy(v114,v274);
+    v276[1] = "MIN_VALUE";
+}
+const v277 = {deleteProperty:v17,set:v17,getPrototypeOf:v17,call:v17,preventExtensions:v17,isExtensible:v17,construct:v17,get:v17,ownKeys:v17,setPrototypeOf:v17,has:v17};
+const v279 = new Proxy(v16,v277);
+v279[1] = "MIN_VALUE";
+v279[-1882595336] = v4;
+const v280 = v17();
+const v281 = v17(v4,9007199254740991,9007199254740991);
+}
+%NeverOptimizeFunction(main);
+main();

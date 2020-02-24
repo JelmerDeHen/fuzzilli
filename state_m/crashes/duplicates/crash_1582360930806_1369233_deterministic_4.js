@@ -1,0 +1,124 @@
+function main() {
+const v4 = [1337,13.37,1337,Uint8Array];
+let v5 = v4;
+const v7 = [1337,1337,1337,1337,1337];
+const v8 = {valueOf:v7,__proto__:v7};
+let v9 = parseFloat;
+const v12 = [1337,1337,1337,1337,1337];
+function v13(v14,v15,v16,v17) {
+    'use strict'
+    try {
+        const v21 = [1337,1337];
+        const v23 = new ArrayBuffer();
+        v9 = v16;
+        let v26 = 0;
+        do {
+            const v27 = v26 + 1;
+            v26 = v27;
+        } while (v26 < 4);
+        let v29 = 0;
+        const v30 = v23.slice(v9);
+        const v31 = v29 + 1;
+        const v32 = [13.37];
+        const v34 = [1337,13.37,v32,-1155643050];
+        let v35 = v32;
+        const v37 = [1337,1337];
+        const v38 = {valueOf:1337,b:v5,e:1337,d:1337,constructor:v35,__proto__:1337,a:v32};
+        const v40 = [1337,1337,1337,1337,1337];
+        const v41 = [v40];
+        const v42 = v37[-4096];
+        const v43 = v34[-3357639552];
+        const v44 = 13.37 == v34;
+        let v46 = 0;
+        const v47 = v35.flat();
+        v17[3] = v17;
+        const v48 = v8();
+        const v49 = v48[-2900725722];
+        let v51 = undefined;
+        const v54 = [13.37,13.37,13.37,13.37];
+        const v56 = [1337,1337];
+        const v57 = [v54];
+        const v58 = {c:"symbol",e:13.37,b:v54,length:13.37,d:1337,a:v54,valueOf:13.37};
+        const v59 = {};
+        let v60 = v59;
+        const v64 = [2.2250738585072014e-308,2.2250738585072014e-308,2.2250738585072014e-308,2.2250738585072014e-308];
+        const v66 = [1337,1337,1337,1337];
+        const v67 = [1337,2.2250738585072014e-308,2.2250738585072014e-308,v66];
+        const v68 = {c:"MAX_SAFE_INTEGER",e:"MAX_SAFE_INTEGER",d:v66,valueOf:v66,toString:2.2250738585072014e-308};
+        const v73 = [13.37,13.37,13.37,13.37,13.37];
+        const v75 = [1337,1337,1337,1337,1337];
+        const v76 = [Uint16Array,128];
+        const v77 = {d:Uint16Array,a:v76,constructor:128,valueOf:v76};
+        const v78 = {b:v77,__proto__:13.37};
+        let v79 = "J8iLQbPSCi";
+        const v84 = [13.37,13.37];
+        const v86 = [1337,1337];
+        const v87 = [-2160862002,1337];
+        const v88 = {};
+        const v89 = {__proto__:-2160862002,constructor:-2160862002,e:v87,valueOf:RegExp};
+        let v90 = "eyohNwjVax";
+        const v94 = [13.37,13.37,13.37,13.37,13.37];
+        let v96 = "jZZhI/kPfh";
+        const v98 = [Infinity,Infinity,Infinity];
+        const v99 = [v96,v98];
+        let v102 = 127;
+        const v104 = String.fromCharCode();
+        let v106 = "p8Xp0R1moN";
+        const v107 = JSON.stringify();
+        const v108 = v99.toLocaleString();
+        const v109 = {c:v108,d:v107};
+        let v112 = 0;
+        let v114 = v109;
+        const v115 = ["symbol",v114,v114];
+        const v116 = JSON.stringify();
+        const v118 = [1337,1337,1337,1337,1337];
+        const v119 = [v94,Boolean];
+        const v120 = {a:v119,__proto__:1337,constructor:"object"};
+        function v122(v123,v124) {
+        }
+        const v130 = [1.7976931348623157e+308];
+        const v132 = [255,255,255];
+        const v133 = {a:255,toString:Math,c:v130,__proto__:v132,valueOf:"object",constructor:"gM8oAednYn"};
+        let v136 = RegExp;
+        let v137 = v136;
+        const v140 = Proxy();
+        const v141 = Object.freeze();
+        const v142 = {toString:v130,valueOf:v133,d:255,constructor:536870912};
+        const v143 = RegExp.apply();
+        const v144 = "2IdSaX90v.".replace(v143,v122);
+        const v145 = {valueOf:1337,constructor:1337,__proto__:13.37,a:1337,b:v118};
+        let v146 = "object";
+        const v148 = [13.37];
+        const v151 = "symbol".replace();
+        let v152 = RegExp;
+        const v154 = Float64Array();
+        const v155 = v152.apply();
+        let v156 = v152;
+        const v157 = v106.split();
+        const v158 = v156 + 1;
+        const v159 = String();
+        const v160 = {};
+        let v161 = v67;
+        let v163 = "p8Xp0R1moN";
+        const v167 = "GigwGnULzL".replace();
+        let v168 = RegExp;
+        let v170 = 0;
+        const v171 = v170 + 1;
+        const v172 = RegExp[v56];
+        const v173 = v67 << eval;
+        const v174 = v56 | v173;
+        const v176 = String();
+        const v177 = v168.apply();
+        let v179 = -9007199254740992;
+        const v180 = v163.split(v177,8);
+        let v182 = 0;
+    } catch(v183) {
+        const v184 = {construct:v183};
+    }
+}
+const v185 = {deleteProperty:v13,set:v13,getPrototypeOf:v13,call:v13,preventExtensions:v13,isExtensible:v13,construct:v13,get:v13,ownKeys:v13,setPrototypeOf:v13,has:v13};
+const v187 = new Proxy(v12,v185);
+v187[1] = "MIN_VALUE";
+}
+%NeverOptimizeFunction(main);
+main();

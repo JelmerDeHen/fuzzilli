@@ -1,0 +1,13 @@
+function main() {
+let v4 = 0;
+const v5 = v4 + 1;
+// v5 = .primitive
+v4 = v5;
+const v7 = new Float64Array(128);
+// v7 = .object(ofGroup: Float64Array, withProperties: ["constructor", "buffer", "__proto__", "byteOffset", "length", "byteLength"], withMethods: ["findIndex", "slice", "map", "find", "includes", "entries", "forEach", "some", "indexOf", "subarray", "reduce", "reduceRight", "fill", "join", "sort", "values", "keys", "copyWithin", "reverse", "filter", "set", "lastIndexOf", "every"])
+v7.constructor = Int16Array;
+const v10 = v7.slice(16,1337);
+// v10 = .object(ofGroup: Float64Array, withProperties: ["__proto__", "buffer", "byteOffset", "byteLength", "constructor", "length"], withMethods: ["findIndex", "forEach", "keys", "values", "join", "filter", "set", "sort", "reduceRight", "fill", "subarray", "find", "entries", "map", "includes", "slice", "some", "reduce", "copyWithin", "every", "reverse", "lastIndexOf", "indexOf"])
+}
+%NeverOptimizeFunction(main);
+main();

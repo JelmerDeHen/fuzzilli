@@ -1,0 +1,33 @@
+function main() {
+let v2 = 0;
+const v3 = v2 + 1;
+// v3 = .primitive
+v2 = v3;
+const v7 = [59446.68221467873];
+// v7 = .object(ofGroup: Array, withProperties: ["length", "__proto__", "constructor"], withMethods: ["copyWithin", "reduceRight", "concat", "every", "some", "toString", "filter", "toLocaleString", "slice", "map", "join", "values", "sort", "indexOf", "keys", "splice", "fill", "includes", "pop", "reduce", "lastIndexOf", "find", "flatMap", "findIndex", "unshift", "flat", "reverse", "shift", "entries", "forEach", "push"])
+const v9 = [v7,1337,3779702335];
+// v9 = .object(ofGroup: Array, withProperties: ["length", "__proto__", "constructor"], withMethods: ["copyWithin", "reduceRight", "concat", "every", "some", "toString", "filter", "toLocaleString", "slice", "map", "join", "values", "sort", "indexOf", "keys", "splice", "fill", "includes", "pop", "reduce", "lastIndexOf", "find", "flatMap", "findIndex", "unshift", "flat", "reverse", "shift", "entries", "forEach", "push"])
+function v10(v11,v12) {
+    const v14 = Math.fround(1337);
+    // v14 = .number
+    for (const v16 in "boolean") {
+        const v17 = ~v14;
+        // v17 = .boolean
+        const v18 = v17 >= v14;
+        // v18 = .boolean
+        for (const v20 of "pvU0UUjoya") {
+        }
+    }
+}
+const v22 = [1337];
+// v22 = .object(ofGroup: Array, withProperties: ["length", "__proto__", "constructor"], withMethods: ["copyWithin", "reduceRight", "concat", "every", "some", "toString", "filter", "toLocaleString", "slice", "map", "join", "values", "sort", "indexOf", "keys", "splice", "fill", "includes", "pop", "reduce", "lastIndexOf", "find", "flatMap", "findIndex", "unshift", "flat", "reverse", "shift", "entries", "forEach", "push"])
+let v23 = v22;
+const v24 = v10(v23);
+// v24 = .unknown
+const v26 = v10(Uint32Array,v9);
+// v26 = .unknown
+const v27 = v10();
+// v27 = .unknown
+}
+%NeverOptimizeFunction(main);
+main();

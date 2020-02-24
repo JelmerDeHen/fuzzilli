@@ -1,0 +1,13 @@
+function main() {
+const v4 = new Float32Array(1337);
+// v4 = .object(ofGroup: Float32Array, withProperties: ["__proto__", "buffer", "constructor", "length", "byteLength", "byteOffset"], withMethods: ["sort", "some", "indexOf", "find", "subarray", "set", "reverse", "reduce", "join", "values", "keys", "entries", "map", "copyWithin", "includes", "findIndex", "slice", "reduceRight", "lastIndexOf", "filter", "every", "fill", "forEach"])
+const v7 = new Uint16Array(v4);
+// v7 = .object(ofGroup: Uint16Array, withProperties: ["__proto__", "constructor", "byteOffset", "buffer", "byteLength", "length"], withMethods: ["fill", "reverse", "keys", "forEach", "set", "indexOf", "subarray", "lastIndexOf", "sort", "reduce", "findIndex", "map", "every", "entries", "join", "find", "some", "slice", "values", "includes", "filter", "reduceRight", "copyWithin"])
+const v8 = 8 != Float32Array;
+// v8 = .boolean
+let v11 = 0;
+const v12 = v7.indexOf(13.37,1337);
+// v12 = .integer
+}
+%NeverOptimizeFunction(main);
+main();

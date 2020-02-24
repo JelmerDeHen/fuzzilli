@@ -1,0 +1,8 @@
+function main() {
+const v4 = new Int32Array(2870);
+// v4 = .object(ofGroup: Int32Array, withProperties: ["buffer", "length", "__proto__", "constructor", "byteLength", "byteOffset"], withMethods: ["forEach", "entries", "find", "reduce", "lastIndexOf", "indexOf", "map", "slice", "findIndex", "set", "keys", "subarray", "join", "filter", "some", "values", "fill", "copyWithin", "reverse", "sort", "includes", "every", "reduceRight"])
+const v5 = v4.lastIndexOf(0,6);
+// v5 = .integer
+}
+%NeverOptimizeFunction(main);
+main();

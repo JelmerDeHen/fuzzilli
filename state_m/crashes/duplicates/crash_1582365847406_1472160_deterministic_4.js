@@ -1,0 +1,67 @@
+function main() {
+const v4 = [13.37,13.37,13.37];
+const v6 = [1337,1337,1337];
+const v7 = [isFinite,"__proto__",v4,13.37];
+const v8 = {__proto__:13.37,b:13.37,e:isFinite};
+const v9 = {constructor:2147483649,d:v4,e:13.37};
+const v11 = [13.37,13.37,13.37,13.37];
+const v13 = [1337,1337,1337,1337];
+const v14 = [];
+const v15 = {b:1337,c:v11,d:13.37,a:"__proto__",length:v14,valueOf:1337};
+const v19 = [1337,1337,1337,1337,1337];
+function v20(v21,v22,v23,v24) {
+    'use strict'
+    try {
+        v24[3] = v24;
+    } catch(v25) {
+        const v30 = [-2331916614,v8,-2331916614];
+        const v31 = [3664180981,3664180981,"string","string"];
+        const v32 = {valueOf:v31,length:v30,toString:parseFloat,constructor:"string",c:parseFloat};
+        function v33(v34,v35) {
+            for (const v37 in "ruHq55V2**") {
+                const v41 = [1337,1337,1337,1337,1337];
+                function v42(v43,v44,v45,v46) {
+                    'use strict'
+                    try {
+                        const v47 = new Float64Array(v45);
+                        function v50(v51,v52,v53,v54,v55) {
+                            'use strict'
+                        }
+                        const v56 = v50.toLocaleString();
+                        const v58 = [];
+                        const v59 = {a:v58};
+                        const v60 = {__proto__:eval,constructor:v59,length:v58};
+                        let v63 = 0;
+                        const v64 = v60.__proto__(v56,v63,19873,Symbol,eval);
+                        const v66 = Object.defineProperty(this,1337,v46);
+                    } catch(v67) {
+                        try {
+                            const v68 = v43[3];
+                        } catch(v69) {
+                            v67.valueOf = v67;
+                        }
+                    }
+                    return v42;
+                }
+                const v70 = {deleteProperty:v42,set:v42,getPrototypeOf:v42,call:v42,preventExtensions:v42,isExtensible:v42,construct:v42,get:v42,ownKeys:v42,setPrototypeOf:v42,has:v42};
+                const v72 = new Proxy(v41,v70);
+                v72[1] = "MIN_VALUE";
+            }
+        }
+        const v73 = v30.__proto__;
+        const v74 = v33();
+    }
+}
+const v75 = {deleteProperty:v20,set:v20,getPrototypeOf:v20,call:v20,preventExtensions:v20,isExtensible:v20,construct:v20,get:v20,ownKeys:v20,setPrototypeOf:v20,has:v20};
+const v77 = new Proxy(v19,v75);
+v77[1] = "MIN_VALUE";
+let v78 = v4;
+const v80 = [1337,1337,1337,1337,1337];
+function v81(v82,v83,v84,v85) {
+    'use strict'
+}
+const v86 = {deleteProperty:v81,set:v81,getPrototypeOf:v81,call:v81,preventExtensions:v81,isExtensible:v81,construct:v81,get:v81,ownKeys:v81,setPrototypeOf:v81,has:v81};
+const v88 = Proxy();
+}
+%NeverOptimizeFunction(main);
+main();

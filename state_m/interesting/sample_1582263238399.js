@@ -1,0 +1,10 @@
+function main() {
+const v3 = new Int8Array(1667);
+// v3 = .object(ofGroup: Int8Array, withProperties: ["constructor", "buffer", "__proto__", "length", "byteOffset", "byteLength"], withMethods: ["indexOf", "includes", "fill", "entries", "forEach", "reduceRight", "set", "values", "find", "slice", "map", "some", "copyWithin", "findIndex", "reverse", "keys", "filter", "subarray", "reduce", "join", "sort", "lastIndexOf", "every"])
+let v7 = 0;
+let v11 = 0;
+const v12 = v3.lastIndexOf(0,1337);
+// v12 = .integer
+}
+%NeverOptimizeFunction(main);
+main();

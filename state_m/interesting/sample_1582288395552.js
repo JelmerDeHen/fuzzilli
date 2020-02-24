@@ -1,0 +1,29 @@
+function main() {
+const v1 = [1337,1337,1337];
+// v1 = .object(ofGroup: Array, withProperties: ["__proto__", "length", "constructor"], withMethods: ["slice", "toLocaleString", "join", "sort", "some", "find", "toString", "reduceRight", "pop", "concat", "fill", "unshift", "splice", "reverse", "findIndex", "filter", "copyWithin", "indexOf", "keys", "includes", "entries", "every", "values", "shift", "map", "flatMap", "push", "lastIndexOf", "flat", "reduce", "forEach"])
+let v4 = 0;
+let v7 = 0;
+const v8 = v7 + 1;
+// v8 = .primitive
+v7 = v8;
+const v9 = v4 + 1;
+// v9 = .primitive
+v4 = v9;
+for (let v13 = 0; v13 < 100; v13++) {
+    const v15 = [13.37,13.37,13.37];
+    // v15 = .object(ofGroup: Array, withProperties: ["__proto__", "length", "constructor"], withMethods: ["slice", "toLocaleString", "join", "sort", "some", "find", "toString", "reduceRight", "pop", "concat", "fill", "unshift", "splice", "reverse", "findIndex", "filter", "copyWithin", "indexOf", "keys", "includes", "entries", "every", "values", "shift", "map", "flatMap", "push", "lastIndexOf", "flat", "reduce", "forEach"])
+    function v16(v17,v18) {
+        const v19 = v15[0];
+        // v19 = .unknown
+        v19.__proto__ = v1;
+        v15[v13] = v13;
+    }
+    const v21 = [1337];
+    // v21 = .object(ofGroup: Array, withProperties: ["__proto__", "length", "constructor"], withMethods: ["slice", "toLocaleString", "join", "sort", "some", "find", "toString", "reduceRight", "pop", "concat", "fill", "unshift", "splice", "reverse", "findIndex", "filter", "copyWithin", "indexOf", "keys", "includes", "entries", "every", "values", "shift", "map", "flatMap", "push", "lastIndexOf", "flat", "reduce", "forEach"])
+    let v22 = v21;
+    const v23 = v16(v22);
+    // v23 = .unknown
+}
+}
+%NeverOptimizeFunction(main);
+main();

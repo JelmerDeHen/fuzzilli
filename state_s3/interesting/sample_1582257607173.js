@@ -1,0 +1,7 @@
+function main() {
+const v2 = JSON.stringify(undefined,undefined);
+// v2 = .string + .object(ofGroup: String, withProperties: ["constructor", "__proto__", "length"], withMethods: ["indexOf", "padEnd", "replace", "charAt", "trim", "endsWith", "padStart", "charCodeAt", "codePointAt", "split", "includes", "startsWith", "repeat", "lastIndexOf", "concat", "substring", "slice"])
+let v6 = 0;
+}
+%NeverOptimizeFunction(main);
+main();

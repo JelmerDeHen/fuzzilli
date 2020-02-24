@@ -1,0 +1,32 @@
+function main() {
+const v1 = [1337];
+// v1 = .object(ofGroup: Array, withProperties: ["length", "__proto__", "constructor"], withMethods: ["copyWithin", "reduceRight", "concat", "every", "some", "toString", "filter", "toLocaleString", "slice", "map", "join", "values", "sort", "indexOf", "keys", "splice", "fill", "includes", "pop", "reduce", "lastIndexOf", "find", "flatMap", "findIndex", "unshift", "flat", "reverse", "shift", "entries", "forEach", "push"])
+let v2 = v1;
+let v4 = undefined;
+for (const v6 in "boolean") {
+    const v11 = [1337,1337,1337];
+    // v11 = .object(ofGroup: Array, withProperties: ["length", "__proto__", "constructor"], withMethods: ["copyWithin", "reduceRight", "concat", "every", "some", "toString", "filter", "toLocaleString", "slice", "map", "join", "values", "sort", "indexOf", "keys", "splice", "fill", "includes", "pop", "reduce", "lastIndexOf", "find", "flatMap", "findIndex", "unshift", "flat", "reverse", "shift", "entries", "forEach", "push"])
+    const v15 = [1337];
+    // v15 = .object(ofGroup: Array, withProperties: ["length", "__proto__", "constructor"], withMethods: ["copyWithin", "reduceRight", "concat", "every", "some", "toString", "filter", "toLocaleString", "slice", "map", "join", "values", "sort", "indexOf", "keys", "splice", "fill", "includes", "pop", "reduce", "lastIndexOf", "find", "flatMap", "findIndex", "unshift", "flat", "reverse", "shift", "entries", "forEach", "push"])
+    let v16 = Reflect;
+    for (let v20 = 0; v20 < 100; v20++) {
+        function v21(v22,v23) {
+            const v24 = v15.length;
+            // v24 = .integer
+            const v25 = v16.preventExtensions(v15);
+            // v25 = .boolean
+        }
+        const v27 = [1337];
+        // v27 = .object(ofGroup: Array, withProperties: ["length", "__proto__", "constructor"], withMethods: ["copyWithin", "reduceRight", "concat", "every", "some", "toString", "filter", "toLocaleString", "slice", "map", "join", "values", "sort", "indexOf", "keys", "splice", "fill", "includes", "pop", "reduce", "lastIndexOf", "find", "flatMap", "findIndex", "unshift", "flat", "reverse", "shift", "entries", "forEach", "push"])
+        let v28 = v27;
+        const v29 = v21(v28);
+        // v29 = .unknown
+    }
+    let v30 = 0;
+    const v31 = v30 + 1;
+    // v31 = .primitive
+    v30 = v31;
+}
+}
+%NeverOptimizeFunction(main);
+main();

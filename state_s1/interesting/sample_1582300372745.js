@@ -1,0 +1,21 @@
+function main() {
+const v1 = [1337,1337];
+// v1 = .object(ofGroup: Array, withProperties: ["constructor", "__proto__", "length"], withMethods: ["forEach", "filter", "unshift", "slice", "splice", "reverse", "reduce", "join", "reduceRight", "some", "pop", "copyWithin", "concat", "flatMap", "shift", "push", "lastIndexOf", "fill", "entries", "sort", "includes", "map", "toString", "values", "indexOf", "keys", "every", "flat", "toLocaleString", "find", "findIndex"])
+const v3 = {length:isFinite};
+// v3 = .object(ofGroup: Object, withProperties: ["__proto__"], withMethods: ["length"])
+const v6 = [1337,v3,1337,1337,1337];
+// v6 = .object(ofGroup: Array, withProperties: ["constructor", "__proto__", "length"], withMethods: ["forEach", "filter", "unshift", "slice", "splice", "reverse", "reduce", "join", "reduceRight", "some", "pop", "copyWithin", "concat", "flatMap", "shift", "push", "lastIndexOf", "fill", "entries", "sort", "includes", "map", "toString", "values", "indexOf", "keys", "every", "flat", "toLocaleString", "find", "findIndex"])
+function v7(v8,v9) {
+    let v11 = this;
+    let v12 = v11;
+    const v15 = new Proxy(v12,Object);
+    // v15 = .unknown
+    v12.c = v1;
+    const v16 = Object.freeze(v15);
+    // v16 = .undefined
+}
+const v17 = v6.forEach(v7,"eeeRbEqfAO");
+// v17 = .undefined
+}
+%NeverOptimizeFunction(main);
+main();

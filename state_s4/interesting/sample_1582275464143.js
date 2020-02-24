@@ -1,0 +1,23 @@
+function main() {
+const v3 = [Int32Array,1337,1337,-720484316];
+// v3 = .object(ofGroup: Array, withProperties: ["length", "__proto__", "constructor"], withMethods: ["copyWithin", "reduceRight", "concat", "every", "some", "toString", "filter", "toLocaleString", "slice", "map", "join", "values", "sort", "indexOf", "keys", "splice", "fill", "includes", "pop", "reduce", "lastIndexOf", "find", "flatMap", "findIndex", "unshift", "flat", "reverse", "shift", "entries", "forEach", "push"])
+const v4 = {e:v3};
+// v4 = .object(ofGroup: Object, withProperties: ["e", "__proto__"])
+const v7 = [13.37,13.37];
+// v7 = .object(ofGroup: Array, withProperties: ["length", "__proto__", "constructor"], withMethods: ["copyWithin", "reduceRight", "concat", "every", "some", "toString", "filter", "toLocaleString", "slice", "map", "join", "values", "sort", "indexOf", "keys", "splice", "fill", "includes", "pop", "reduce", "lastIndexOf", "find", "flatMap", "findIndex", "unshift", "flat", "reverse", "shift", "entries", "forEach", "push"])
+v7[2428831399] = 13.37;
+const v10 = v7.fill(-3613839107,-3613839107,1337);
+// v10 = .undefined
+let v13 = 0;
+const v14 = v13 + 1;
+// v14 = .primitive
+v13 = v14;
+let v17 = 0;
+const v18 = v17 + 1;
+// v18 = .primitive
+v17 = v18;
+for (const v19 in v7) {
+}
+}
+%NeverOptimizeFunction(main);
+main();

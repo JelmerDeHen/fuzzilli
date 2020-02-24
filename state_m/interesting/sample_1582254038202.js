@@ -1,0 +1,15 @@
+function main() {
+const v3 = [3156875969,3156875969,1337,DataView];
+// v3 = .object(ofGroup: Array, withProperties: ["__proto__", "length", "constructor"], withMethods: ["slice", "toLocaleString", "join", "sort", "some", "find", "toString", "reduceRight", "pop", "concat", "fill", "unshift", "splice", "reverse", "findIndex", "filter", "copyWithin", "indexOf", "keys", "includes", "entries", "every", "values", "shift", "map", "flatMap", "push", "lastIndexOf", "flat", "reduce", "forEach"])
+const v4 = {e:DataView,constructor:1337,valueOf:1337,d:v3};
+// v4 = .object(ofGroup: Object, withProperties: ["constructor", "__proto__", "valueOf", "d", "e"])
+let v8 = 0;
+const v9 = v8 + 1;
+// v9 = .primitive
+v8 = v9;
+delete v4.e;
+const v11 = gc();
+// v11 = .undefined
+}
+%NeverOptimizeFunction(main);
+main();
